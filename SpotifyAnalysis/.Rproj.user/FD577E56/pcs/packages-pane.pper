@@ -1,0 +1,7 @@
+{
+    "installOptions" : {
+        "installDependencies" : true,
+        "installFromRepository" : true,
+        "libraryPath" : "C:/Users/samq2/OneDrive/misc/Documents/R/win-library/3.4"
+    }
+}

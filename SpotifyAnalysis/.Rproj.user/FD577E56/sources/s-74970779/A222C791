@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1514137171283.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A222C791",
+    "lastKnownWriteTime" : 1514319060,
+    "last_content_update" : -2147483648,
+    "path" : "C:/Users/samq2/Desktop/college/Data Application Development/project/SpotifyAnalysis/Spotify.R",
+    "project_path" : "Spotify.R",
+    "properties" : {
+        "cursorPosition" : "307,0",
+        "scrollLine" : "266",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

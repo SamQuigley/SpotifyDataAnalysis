@@ -1,0 +1,91 @@
+library()
+library(dplyr)
+library(dplyr:base)
+install.packages(c("ggplot2", "ggthemes", "scales", "dplyr", "mice", "randomForest"))
+titanicData <- read.csv("titanic.csv", header=T, na.strings=c(""), stringsAsFactors = T)
+summary(titanicData)
+hist(titanicData)
+summary(titanicData$Name)
+titanicData$Survived <- as.factor(titanicData$Survived)
+titanicData$Pclass<- as.factor(titanicData$Pclass)
+sapply(titanicData, function(x) sum(is.na(x)))
+library(Amelia)
+missmap(titanicData, main = "Missing values vs observed")
+titanicData <- titanicData[!is.na(titanicData$Embarked),]
+paste("PassengerId: ", titanicData[is.na(titanicData$Embarked), 1], " needs to be corrected")
+library(dplyr)
+embarked <- titanicData %>%
+  filter(PassengerId != 62 & PassengerId != 830)
+library(ggplot2)
+library(ggthemes)
+library(scales)
+# Use ggplot2 to visualize embarkment, passenger class, & median fare
+ggplot(embarked, aes(x = Embarked, y = Fare, fill = factor(Pclass))) +
+  geom_boxplot() +
+  geom_hline(aes(yintercept=80), #<--- the price we know for one passenger
+             colour='red', linetype='dashed', lwd=2) +
+  scale_y_continuous(labels=dollar_format()) +
+  theme_few()
+titanicData$Embarked[c(62, 830)] <- 'C'
+sum(is.na(titanicData$Embarked))
+ImputedAgeMean <- titanicData$Age
+(ImputedAgeMean[is.na(ImputedAgeMean)] <- mean(ImputedAgeMean, na.rm=TRUE))
+(par(mfrow=c(1,2)))
+hist(titanicData$Age)
+hist(ImputedAgeMean)
+ImputedAgeMedian <- titanicData$Age
+ImputedAgeMedian[is.na(ImputedAgeMedian)] <- median(ImputedAgeMedian, na.rm = TRUE)
+par(mfrow=c(1,2))
+hist(titanicData$Age)
+hist(ImputedAgeMedian)
+df <- data.frame(titanicData$Age, ImputedAgeMean, ImputedAgeMedian)
+summary(df)
+sapply(df, function(x) sd(x, na.rm=T))
+idx_na <- is.na(titanicData$Age)
+age_train <- titanicData[-idx_na, ]
+age_test <- titanicData[idx_na, ]
+ageModel <-lm(Age~Pclass + Survived + SibSp, data = age_train)
+age_test$Age <- predict(ageModel, newdata = age_test)
+ImputedAgeLM <- titanicData
+ImputedAgeLM[ImputedAgeLM$PassengerId %in% age_test$PassengerId, "Age"] <- age_test$Age
+library(mice)
+mice_mod <- mice(titanicData[, !names(titanicData) %in%
+                               c('PassengerId','Name','Ticket','Cabin','Survived')], method='rf')
+mice_output <- complete(mice_mod)
+df <- data.frame(titanicData$Age, ImputedAgeMean, ImputedAgeMedian, ImputedAgeLM$Age, mice_output$Age)
+summary(df)
+sapply(df, function(x) sd(x, na.rm=T))
+par(mar = rep(2, 4))
+barplot(table(titanicData$Survived))
+barplot(table(titanicData$Sex))
+library(ggplot2)
+library(ggthemes)
+ggplot(titanicData, aes(Pclass, fill = factor(Survived))) +
+  geom_bar(stat='count', position='dodge') +
+  facet_grid(.~Sex) +
+  theme_few()
+ggplot(titanicData, aes(Pclass, fill = factor(Survived))) +
+  geom_bar(stat='count', position='dodge') +
+  facet_grid(.~Embarked) +
+  theme_few()
+hist(titanicData$Fare)
+titanicData$binnedFare <- cut(titanicData$Fare, breaks=c(-1, 0, 10, 25, 50, 100, 600),
+                              labels = c("Free", "Cheapest", "Cheaper", "Mid Range", "Expensive", "Most Expensive"))
+ggplot(titanicData, aes(binnedFare, fill = factor(Survived))) +
+  geom_bar(stat='count', position='dodge') +
+  facet_grid(.~Sex) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+titanicData$Child[titanicData$Age < 18] <- "Y"
+titanicData$Child[titanicData$Age >= 18] <- "N"
+titanicData$Child <- as.factor(titanicData$Child)
+
+ggplot(titanicData, aes(Child, fill = factor(Survived))) +
+  geom_bar(stat='count', position='dodge') +
+  facet_grid(.~Sex) +
+  theme_few()
+
+ggplot(titanicData, aes(x = Fsize, fill = factor(Survived))) +
+  geom_bar(stat='count', position='dodge') +
+  scale_x_continuous(breaks=c(1:11)) +
+  labs(x = 'Family Size') +
+  theme_few()
