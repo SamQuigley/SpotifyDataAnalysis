@@ -10,7 +10,7 @@ headers = list(data[0][0].keys())
 
 headers.append("name")
 
-with open("../output/MyTop100.csv", "w") as f:
+with open("../../datasets/MyTop100.csv", "w") as f:
     writer = csv.writer(f , delimiter='\t')
     writer.writerow(headers)
     to_write = []
