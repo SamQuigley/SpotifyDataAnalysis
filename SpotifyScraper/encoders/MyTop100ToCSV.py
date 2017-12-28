@@ -30,4 +30,3 @@ with open("../output/MyTop100.csv", "w") as f:
             to_write = []
 
 
-shutil.copy2('../output/MyTop100.csv', '../../datasets/MyTop100.csv')   

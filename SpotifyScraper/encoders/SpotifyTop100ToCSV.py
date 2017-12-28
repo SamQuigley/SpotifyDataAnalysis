@@ -30,5 +30,4 @@ with open("../output/SpotifyTop100.csv", "w") as f:
             writer.writerow(to_write)
             to_write = []
 
-
-shutil.copy2('../output/SpotifyTop100.csv', '../../datasets/SpotifyTop100.csv')            
+            
