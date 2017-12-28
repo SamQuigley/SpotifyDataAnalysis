@@ -20,3 +20,4 @@ with open(path) as csvfile:
             pass
 
 
+#not parsed into CSV
