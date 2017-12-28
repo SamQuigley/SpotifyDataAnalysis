@@ -1,5 +1,6 @@
 import json
 import csv
+import shutil
 
 data_file = "../output/MyTop100.json"
 
@@ -10,18 +11,23 @@ headers = list(data[0][0].keys())
 
 headers.append("name")
 
-with open("../../datasets/MyTop100.csv", "w") as f:
+with open("../output/MyTop100.csv", "w") as f:
     writer = csv.writer(f , delimiter='\t')
     writer.writerow(headers)
     to_write = []
+    count=0
     for x in data:
         
         if type(x) is list:
             
-            to_write+= list(x[0].values())
+            to_write+= list(x[count].values())
+            count+=1
         # only writes after it finds the key word name
         if type(x) is str and x != "name":
             to_write.append(x)
             
             writer.writerow(to_write)
             to_write = []
+
+
+shutil.copy2('../output/MyTop100.csv', '../../datasets/MyTop100.csv')   

@@ -16,12 +16,8 @@ for i in range(len(songs)):
     features = sp.audio_features(ids)
     tracks.append(sp.audio_features(ids))
     tracks.append("name")
-    tracks.append(songs[i]["track"]["name"])
+    tracks.append(songs[i]["track"]["name"])    
 
-
-    # pp = pprint.PrettyPrinter(indent=4)
-    # pp.pprint(tracks)
-    # break
 #output JSON
 with open('output/MyTop100.json', 'w') as outfile:
      json.dump(tracks, outfile)
