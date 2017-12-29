@@ -1,30 +1,37 @@
 #read in datasets
-global <- read.csv("globalTop2017.csv", header=T, na.strings=c(""), stringsAsFactors = T)
-me <- read.csv("myTop2017.csv", header=T, na.strings=c(""), stringsAsFactors = T)
+myTop <- read.csv("../datasets/MyTop100.csv", sep="\t", header=TRUE, row.names=NULL)
+spotifyTop <- read.csv("../datasets/SpotifyTop100.csv", sep="\t", header=TRUE, row.names=NULL)
 
-#lets make sure we have the same columns
-#unfortunatley I had to abandone incl. name+artist in a the data set I scrapped.
-me$uri <-NULL
-me$type <-NULL
-me$analysis_url<-NULL
-me$track_href<-NULL
-me$id<-NULL
-global$name<-NULL
-global$artists<-NULL
-global$id<-NULL
-global$X0<-NULL
+
+#delete whats not goong to be used
+myTop$type <-NULL
+myTop$analysis_url<-NULL
+myTop$track_href<-NULL
+myTop$uri<-NULL
+myTop$id<-NULL
+spotifyTop$type <-NULL
+spotifyTop$analysis_url<-NULL
+spotifyTop$track_href<-NULL
+spotifyTop$uri<-NULL
+spotifyTop$id<-NULL
+
 #ensuring we have no N/A OR NULL values in the dataset
-sapply(me, function(x) sum(is.na(x)))
-sapply(global, function(x) sum(is.na(x)))
+sapply(myTop, function(x) sum(is.na(x)))
+sapply(spotifyTop, function(x) sum(is.na(x)))
 
 #merging data sets
 #because they have the same column names I will rename them to identfy what datasset they belong to
-me <- setNames(me, c("me.danceability", "me.energy", "me.key", "me.loudness", "me.mode", "me.speechiness", "me.acousticness", "me.instrumentalness", "me.liveness", "me.valence", "me.tempo", "me.duration_ms", "me.time_signature"))
-global <- setNames(global, c("global.danceability", "global.energy", "global.key", "global.loudness", "global.mode", "global.speechiness", "global.acousticness", "global.instrumentalness", "global.liveness", "global.valence", "global.tempo", "global.duration_ms", "global.time_signature"))
-summary(me)
-summary(global)
-combined<-merge(me, global)
+myTop <- setNames(myTop, c("myTop.danceability", "myTop.energy", "myTop.key", "myTop.loudness", "myTop.mode", "myTop.speechiness", "myTop.acousticness", "myTop.instrumentalness", "myTop.liveness", "myTop.valence", "myTop.tempo", "myTop.duration_ms", "myTop.time_signature", "myTop.name", "myTop.length"))
+spotifyTop <- setNames(spotifyTop, c("spotifyTop.danceability", "spotifyTop.energy", "spotifyTop.key", "spotifyTop.loudness", "spotifyTop.mode", "spotifyTop.speechiness", "spotifyTop.acousticness", "spotifyTop.instrumentalness", "spotifyTop.liveness", "spotifyTop.valence", "spotifyTop.tempo", "spotifyTop.duration_ms", "spotifyTop.time_signature","spotifyTop.name", "spotifyTop.length"))
+
+
+
+summary(myTop)
+summary(spotifyTop)
+combined<-merge(myTop, spotifyTop)
 combined <- combined[-c(101:10000), ]
+
+
 #############################################################
 # DANCE VS ACOUSTIC
 ############################################################

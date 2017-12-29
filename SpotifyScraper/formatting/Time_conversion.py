@@ -7,12 +7,12 @@ dataset_path2="../../datasets/SpotifyTop100.csv"
 
 with open(path,'r') as csvinput:
     with open(dataset_path, 'w') as csvoutput:
-        writer = csv.writer(csvoutput, lineterminator='\n', delimiter='\t')
+        writer = csv.writer(csvoutput, delimiter='\t')
         reader = csv.reader(csvinput, delimiter="\t")
 
         all = []
         row = next(reader)
-        row.append('duration')     
+        row.append('length')     
         all.append(row)
         
         for row in reader:
@@ -27,10 +27,8 @@ with open(path,'r') as csvinput:
                 mins=str(mins)
                 secs=str(secs)
                 duration_mins=mins+"."+secs
-                
                 row.append(duration_mins)
-                row.append(row[0])
-                all.append(row)
+                all+=[row]
             except Exception:
                 pass
 
@@ -38,12 +36,12 @@ with open(path,'r') as csvinput:
 
 with open(path2,'r') as csvinput:
     with open(dataset_path2, 'w') as csvoutput:
-        writer = csv.writer(csvoutput, lineterminator='\n', delimiter='\t')
+        writer = csv.writer(csvoutput, delimiter='\t')
         reader = csv.reader(csvinput, delimiter="\t")
 
         all = []
         row = next(reader)
-        row.append('duration')     
+        row.append('length')     
         all.append(row)
         
         for row in reader:
@@ -60,8 +58,7 @@ with open(path2,'r') as csvinput:
                 duration_mins=mins+"."+secs
                 
                 row.append(duration_mins)
-                row.append(row[0])
-                all.append(row)
+                all+=[row]
             except Exception:
                 pass
 
