@@ -320,8 +320,8 @@ dance_and_time + geom_point() +
 #write.csv(spotifyTop, "../datasets/SpotifyTop100.csv")
 
 
-write.table(myTop, "../mapreduce/MyTop100.txt",sep="\t", quote = FALSE)
-write.table(myTop, "../mapreduce/SpotifyTop100.txt",sep="\t", quote = FALSE)
+write.table(myTop, "../mapreduce/MyTop100.txt",sep="\t", quote = FALSE, row.names = FALSE)
+write.table(myTop, "../mapreduce/SpotifyTop100.txt",sep="\t", quote = FALSE, row.names = FALSE)
 
 
 

@@ -9,13 +9,13 @@ for line in sys.stdin:
     data = line.split("\t")     
    
     try:
-        state = data[11]
+        tempo = data[10]
     except IndexError:
         continue
     
-    myList.append(state)
+    myList.append(tempo)
    
     
 
-for state in myList:
-    print('%s\t%s'% (state, 1))
+for tempo in myList:
+    print('%s\t%s'% (tempo, 1))

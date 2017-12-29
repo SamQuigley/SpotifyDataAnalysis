@@ -8,9 +8,9 @@ for line in sys.stdin:
 	data = line.split("\t")  
 
 	try:
-		role=data[16]
-		# rate=int(data[19])
-	except IndexError:
+		name=data[13]
+		time=int(data[10])
+	except ValueError:
 		continue
 
-	print('%s\t%s' % (role))
+	print('%s\t%s' % (name,time))
