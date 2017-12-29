@@ -3,47 +3,66 @@ path="../output/MyTop100.csv"
 path2="../output/SpotifyTop100.csv"
 dataset_path="../../datasets/MyTop100.csv"
 dataset_path2="../../datasets/SpotifyTop100.csv"
-with open(path) as csvfile:
-    readCSV = csv.reader(csvfile, delimiter='\t')
-    count=0
-    msWriter = csv.writer(open(dataset_path,  'a'), delimiter='\t',quotechar='|', quoting=csv.QUOTE_MINIMAL)
-    msWriter.writerow(['Duration'])
-    for row in readCSV:
-        try:
-            ms=int(row[16])
-            ms = int(ms)
-            secs=(ms/1000)%60
-            secs=int(secs)
-            mins=(ms/(1000*60))%60
-            mins=int(mins)
-            mins=str(mins)
-            secs=str(secs)
-            duration_mins=mins+"."+secs
-            msWriter.writerow([duration_mins])
-        except Exception as e:
-            pass
 
 
+with open(path,'r') as csvinput:
+    with open(dataset_path, 'w') as csvoutput:
+        writer = csv.writer(csvoutput, lineterminator='\n', delimiter='\t')
+        reader = csv.reader(csvinput, delimiter="\t")
 
-with open(path2) as csvfile:
-    readCSV = csv.reader(csvfile, delimiter='\t')
-    count=0
-    msWriter = csv.writer(open(dataset_path2,  'a'), delimiter='\t',quotechar='|', quoting=csv.QUOTE_MINIMAL)
-    msWriter.writerow(['Duration'])
-    for row in readCSV:
-        try:
-            ms=int(row[16])
-            ms = int(ms)
-            secs=(ms/1000)%60
-            secs=int(secs)
-            mins=(ms/(1000*60))%60
-            mins=int(mins)
-            mins=str(mins)
-            secs=str(secs)
-            duration_mins=mins+"."+secs
-            msWriter.writerow([duration_mins])
-        except Exception as e:
-            pass
+        all = []
+        row = next(reader)
+        row.append('duration')     
+        all.append(row)
+        
+        for row in reader:
+            try:  
+                
+                ms=int(row[16])
+                ms = int(ms)
+                secs=(ms/1000)%60
+                secs=int(secs)
+                mins=(ms/(1000*60))%60
+                mins=int(mins)
+                mins=str(mins)
+                secs=str(secs)
+                duration_mins=mins+"."+secs
+                
+                row.append(duration_mins)
+                row.append(row[0])
+                all.append(row)
+            except Exception:
+                pass
 
+        writer.writerows(all)
 
+with open(path2,'r') as csvinput:
+    with open(dataset_path2, 'w') as csvoutput:
+        writer = csv.writer(csvoutput, lineterminator='\n', delimiter='\t')
+        reader = csv.reader(csvinput, delimiter="\t")
 
+        all = []
+        row = next(reader)
+        row.append('duration')     
+        all.append(row)
+        
+        for row in reader:
+            try:  
+                
+                ms=int(row[16])
+                ms = int(ms)
+                secs=(ms/1000)%60
+                secs=int(secs)
+                mins=(ms/(1000*60))%60
+                mins=int(mins)
+                mins=str(mins)
+                secs=str(secs)
+                duration_mins=mins+"."+secs
+                
+                row.append(duration_mins)
+                row.append(row[0])
+                all.append(row)
+            except Exception:
+                pass
+
+        writer.writerows(all)

@@ -1,202 +1,101 @@
-danceability	energy	key	loudness	mode	speechiness	acousticness	instrumentalness	liveness	valence	tempo	type	id	uri	track_href	analysis_url	duration_ms	time_signature	name
-0.7	0.546	5	-7.705	0	0.109	0.0131	0.0305	0.172	0.302	80.004	audio_features	5ZVujHtwnsqFJvLnqRSdch	spotify:track:5ZVujHtwnsqFJvLnqRSdch	https://api.spotify.com/v1/tracks/5ZVujHtwnsqFJvLnqRSdch	https://api.spotify.com/v1/audio-analysis/5ZVujHtwnsqFJvLnqRSdch	416000	4	Bad Karma
-0.889	0.393	4	-10.821	0	0.267	0.331	8.67e-06	0.283	0.304	128.065	audio_features	16qYlQ6koFxYVbiJbGHblz	spotify:track:16qYlQ6koFxYVbiJbGHblz	https://api.spotify.com/v1/tracks/16qYlQ6koFxYVbiJbGHblz	https://api.spotify.com/v1/audio-analysis/16qYlQ6koFxYVbiJbGHblz	301133	4	G.O.M.D.
-0.642	0.725	7	-6.94	1	0.0519	0.00733	0.000567	0.102	0.656	169.959	audio_features	2qHMwwXW5XGSpggg8WAit6	spotify:track:2qHMwwXW5XGSpggg8WAit6	https://api.spotify.com/v1/tracks/2qHMwwXW5XGSpggg8WAit6	https://api.spotify.com/v1/audio-analysis/2qHMwwXW5XGSpggg8WAit6	184600	4	I Swear
-0.59	0.702	1	-9.058	1	0.0817	0.0135	0	0.428	0.124	134.023	audio_features	5h5tBFnbcVioFXiOixTn6E	spotify:track:5h5tBFnbcVioFXiOixTn6E	https://api.spotify.com/v1/tracks/5h5tBFnbcVioFXiOixTn6E	https://api.spotify.com/v1/audio-analysis/5h5tBFnbcVioFXiOixTn6E	310720	4	Bitch, Don’t Kill My Vibe
-0.712	0.759	11	-5.397	1	0.334	0.016	0.0808	0.217	0.738	79.103	audio_features	4OKXvqtfwlvY2fYJ2lzHPH	spotify:track:4OKXvqtfwlvY2fYJ2lzHPH	https://api.spotify.com/v1/tracks/4OKXvqtfwlvY2fYJ2lzHPH	https://api.spotify.com/v1/audio-analysis/4OKXvqtfwlvY2fYJ2lzHPH	249333	4	Yonkers
-0.693	0.494	1	-8.801	1	0.143	0.291	0.055	0.101	0.418	94.254	audio_features	366xKgsZ8bFjIhG7JjfCkj	spotify:track:366xKgsZ8bFjIhG7JjfCkj	https://api.spotify.com/v1/tracks/366xKgsZ8bFjIhG7JjfCkj	https://api.spotify.com/v1/audio-analysis/366xKgsZ8bFjIhG7JjfCkj	284693	4	Melatonin
-0.803	0.338	6	-14.029	1	0.0349	0.196	0.038	0.097	0.912	106.841	audio_features	6PgVDY8GTkxF3GmhVGPzoB	spotify:track:6PgVDY8GTkxF3GmhVGPzoB	https://api.spotify.com/v1/tracks/6PgVDY8GTkxF3GmhVGPzoB	https://api.spotify.com/v1/audio-analysis/6PgVDY8GTkxF3GmhVGPzoB	155707	4	Hold On, I'm Comin'
-0.501	0.899	0	-5.384	1	0.0563	0.0987	2.31e-06	0.613	0.723	134.805	audio_features	5nvjZnTa1PUFV8hfrcMKYc	spotify:track:5nvjZnTa1PUFV8hfrcMKYc	https://api.spotify.com/v1/tracks/5nvjZnTa1PUFV8hfrcMKYc	https://api.spotify.com/v1/audio-analysis/5nvjZnTa1PUFV8hfrcMKYc	283360	4	The Passenger
-0.723	0.927	1	-3.203	0	0.183	0.0986	0	0.305	0.545	101.978	audio_features	1aBXNJsLuOeo6ZIeNRkbRc	spotify:track:1aBXNJsLuOeo6ZIeNRkbRc	https://api.spotify.com/v1/tracks/1aBXNJsLuOeo6ZIeNRkbRc	https://api.spotify.com/v1/audio-analysis/1aBXNJsLuOeo6ZIeNRkbRc	295413	4	Holla At Me
-0.468	0.823	4	-3.973	1	0.466	0.81	0	0.598	0.941	74.457	audio_features	2LPUvD5DDOO4UYGkWgjI2C	spotify:track:2LPUvD5DDOO4UYGkWgjI2C	https://api.spotify.com/v1/tracks/2LPUvD5DDOO4UYGkWgjI2C	https://api.spotify.com/v1/audio-analysis/2LPUvD5DDOO4UYGkWgjI2C	179564	4	Shut Up
-0.389	0.873	4	-4.768	0	0.0475	0.00532	0.0055	0.273	0.303	106.767	audio_features	69QHm3pustz01CJRwdo20z	spotify:track:69QHm3pustz01CJRwdo20z	https://api.spotify.com/v1/tracks/69QHm3pustz01CJRwdo20z	https://api.spotify.com/v1/audio-analysis/69QHm3pustz01CJRwdo20z	312293	4	Hells Bells
-0.686	0.834	5	-4.078	0	0.0365	0.00259	0	0.159	0.674	100.024	audio_features	1AdZPCOLcxUeyGRV6zcdzb	spotify:track:1AdZPCOLcxUeyGRV6zcdzb	https://api.spotify.com/v1/tracks/1AdZPCOLcxUeyGRV6zcdzb	https://api.spotify.com/v1/audio-analysis/1AdZPCOLcxUeyGRV6zcdzb	153810	4	Speeding Bullets
-0.959	0.524	9	-8.145	0	0.274	0.316	0	0.274	0.84	119.933	audio_features	6jl01C724Mk68qlOQLco5I	spotify:track:6jl01C724Mk68qlOQLco5I	https://api.spotify.com/v1/tracks/6jl01C724Mk68qlOQLco5I	https://api.spotify.com/v1/audio-analysis/6jl01C724Mk68qlOQLco5I	215792	4	Blow My High (Members Only)
-0.492	0.862	4	-9.158	0	0.0273	0.0121	0.213	0.228	0.591	112.598	audio_features	758wEKVqfYopJIHYWdLVd4	spotify:track:758wEKVqfYopJIHYWdLVd4	https://api.spotify.com/v1/tracks/758wEKVqfYopJIHYWdLVd4	https://api.spotify.com/v1/audio-analysis/758wEKVqfYopJIHYWdLVd4	292800	4	I Wanna Be Adored - Remastered
-0.763	0.786	10	-6.472	0	0.229	0.0146	0.0114	0.0817	0.504	93.857	audio_features	33ZXjLCpiINn8eQIDYEPTD	spotify:track:33ZXjLCpiINn8eQIDYEPTD	https://api.spotify.com/v1/tracks/33ZXjLCpiINn8eQIDYEPTD	https://api.spotify.com/v1/audio-analysis/33ZXjLCpiINn8eQIDYEPTD	325507	4	Shook Ones, Pt. II
-0.743	0.861	3	-5.234	1	0.0428	0.00518	0	0.181	0.391	111.959	audio_features	4UtLXegebv7qNBF26nivhZ	spotify:track:4UtLXegebv7qNBF26nivhZ	https://api.spotify.com/v1/tracks/4UtLXegebv7qNBF26nivhZ	https://api.spotify.com/v1/audio-analysis/4UtLXegebv7qNBF26nivhZ	216013	4	Man Of The Year
-0.81	0.36	7	-13.929	1	0.0684	0.00204	0.849	0.0892	0.0376	120.004	audio_features	6pGs4VS6BV0WnooovrrxRj	spotify:track:6pGs4VS6BV0WnooovrrxRj	https://api.spotify.com/v1/tracks/6pGs4VS6BV0WnooovrrxRj	https://api.spotify.com/v1/audio-analysis/6pGs4VS6BV0WnooovrrxRj	224800	4	Ghetto Kraviz - Original Mix
-0.46	0.904	5	-7.853	0	0.14	0.0113	0.792	0.0842	0.558	162.041	audio_features	2Ddw6YzFbBosbNm3MB1LaS	spotify:track:2Ddw6YzFbBosbNm3MB1LaS	https://api.spotify.com/v1/tracks/2Ddw6YzFbBosbNm3MB1LaS	https://api.spotify.com/v1/audio-analysis/2Ddw6YzFbBosbNm3MB1LaS	173131	4	No Care
-0.716	0.53	7	-7.38	1	0.132	0.0739	0	0.216	0.362	71.981	audio_features	0UtnpKaReKUg2GquaSxCyD	spotify:track:0UtnpKaReKUg2GquaSxCyD	https://api.spotify.com/v1/tracks/0UtnpKaReKUg2GquaSxCyD	https://api.spotify.com/v1/audio-analysis/0UtnpKaReKUg2GquaSxCyD	386907	4	Money Trees
-0.65	0.613	1	-7.905	1	0.0353	0.00166	0.00232	0.144	0.281	120.043	audio_features	0ecnhvnmSc8atdkbvYf2TR	spotify:track:0ecnhvnmSc8atdkbvYf2TR	https://api.spotify.com/v1/tracks/0ecnhvnmSc8atdkbvYf2TR	https://api.spotify.com/v1/audio-analysis/0ecnhvnmSc8atdkbvYf2TR	271959	4	Lift Me Up
-0.754	0.556	8	-7.114	1	0.355	0.191	0	0.0987	0.455	120.859	audio_features	3w23sQ5FSzCKEviFYf0nSQ	spotify:track:3w23sQ5FSzCKEviFYf0nSQ	https://api.spotify.com/v1/tracks/3w23sQ5FSzCKEviFYf0nSQ	https://api.spotify.com/v1/audio-analysis/3w23sQ5FSzCKEviFYf0nSQ	241224	4	Smoke & Retribution
-0.636	0.561	0	-5.584	0	0.185	0.149	0	0.0935	0.371	85.173	audio_features	4XkXgUNDVBMj3oJoE8yspZ	spotify:track:4XkXgUNDVBMj3oJoE8yspZ	https://api.spotify.com/v1/tracks/4XkXgUNDVBMj3oJoE8yspZ	https://api.spotify.com/v1/audio-analysis/4XkXgUNDVBMj3oJoE8yspZ	163587	4	Numbers On The Boards
-0.609	0.799	9	-6.883	1	0.24	0.33	0	0.108	0.582	157.74	audio_features	2MYl0er3UZ1RlKwRb5LODh	spotify:track:2MYl0er3UZ1RlKwRb5LODh	https://api.spotify.com/v1/tracks/2MYl0er3UZ1RlKwRb5LODh	https://api.spotify.com/v1/audio-analysis/2MYl0er3UZ1RlKwRb5LODh	215509	4	A.D.H.D
-0.45	0.721	10	-6.809	1	0.322	0.0548	2.81e-06	0.455	0.232	181.656	audio_features	0nfQguNoAfKFjsQHr6qnxc	spotify:track:0nfQguNoAfKFjsQHr6qnxc	https://api.spotify.com/v1/tracks/0nfQguNoAfKFjsQHr6qnxc	https://api.spotify.com/v1/audio-analysis/0nfQguNoAfKFjsQHr6qnxc	350120	4	m.A.A.d city
-0.515	0.877	1	-7.628	0	0.228	0.00169	0.603	0.511	0.558	173.964	audio_features	3F1cVurf5O2SBcJvSvY4cq	spotify:track:3F1cVurf5O2SBcJvSvY4cq	https://api.spotify.com/v1/tracks/3F1cVurf5O2SBcJvSvY4cq	https://api.spotify.com/v1/audio-analysis/3F1cVurf5O2SBcJvSvY4cq	149027	4	Make You Wanna
-0.498	0.337	11	-11.035	0	0.0332	0.779	2.1e-06	0.111	0.207	98.061	audio_features	09BoTSQdcXgaN5AeozxArT	spotify:track:09BoTSQdcXgaN5AeozxArT	https://api.spotify.com/v1/tracks/09BoTSQdcXgaN5AeozxArT	https://api.spotify.com/v1/audio-analysis/09BoTSQdcXgaN5AeozxArT	250347	4	Clocks Go Forward
-0.796	0.766	7	-5.974	1	0.238	0.0742	0	0.0827	0.558	110.034	audio_features	33i0KOPBWURNW3l97a4QPy	spotify:track:33i0KOPBWURNW3l97a4QPy	https://api.spotify.com/v1/tracks/33i0KOPBWURNW3l97a4QPy	https://api.spotify.com/v1/audio-analysis/33i0KOPBWURNW3l97a4QPy	219333	4	Alright
-0.504	0.705	6	-8.205	0	0.364	0.0752	0	0.128	0.584	175.483	audio_features	6Ius4TC0L3cN74HT7ENE6e	spotify:track:6Ius4TC0L3cN74HT7ENE6e	https://api.spotify.com/v1/tracks/6Ius4TC0L3cN74HT7ENE6e	https://api.spotify.com/v1/audio-analysis/6Ius4TC0L3cN74HT7ENE6e	239320	4	Wet Dreamz
-0.845	0.52	10	-10.411	0	0.155	0.137	0.0234	0.167	0.422	94.968	audio_features	1KBTokLJtUW17RGLQPiVwM	spotify:track:1KBTokLJtUW17RGLQPiVwM	https://api.spotify.com/v1/tracks/1KBTokLJtUW17RGLQPiVwM	https://api.spotify.com/v1/audio-analysis/1KBTokLJtUW17RGLQPiVwM	212045	4	The Art of Peer Pressure
-0.4	0.902	9	-4.385	1	0.0523	0.115	0.000116	0.139	0.632	105.659	audio_features	5XeMsYb1rWxQL1bUUaZajn	spotify:track:5XeMsYb1rWxQL1bUUaZajn	https://api.spotify.com/v1/tracks/5XeMsYb1rWxQL1bUUaZajn	https://api.spotify.com/v1/audio-analysis/5XeMsYb1rWxQL1bUUaZajn	255267	4	Let Me Put My Love Into You
-0.696	0.521	10	-8.465	0	0.332	0.302	0	0.0565	0.458	100.0	audio_features	62vpWI1CHwFy7tMIcSStl8	spotify:track:62vpWI1CHwFy7tMIcSStl8	https://api.spotify.com/v1/tracks/62vpWI1CHwFy7tMIcSStl8	https://api.spotify.com/v1/audio-analysis/62vpWI1CHwFy7tMIcSStl8	292987	4	No Role Modelz
-0.607	0.789	9	-8.87	0	0.0278	0.46	0.907	0.128	0.16	100.351	audio_features	0bXpmJyHHYPk6QBFj25bYF	spotify:track:0bXpmJyHHYPk6QBFj25bYF	https://api.spotify.com/v1/tracks/0bXpmJyHHYPk6QBFj25bYF	https://api.spotify.com/v1/audio-analysis/0bXpmJyHHYPk6QBFj25bYF	127920	4	Intro
-0.328	0.911	1	-4.404	0	0.418	0.0749	0	0.381	0.222	171.16	audio_features	0O6cYePgIBlMQ0pAFate3q	spotify:track:0O6cYePgIBlMQ0pAFate3q	https://api.spotify.com/v1/tracks/0O6cYePgIBlMQ0pAFate3q	https://api.spotify.com/v1/audio-analysis/0O6cYePgIBlMQ0pAFate3q	248093	4	Compton
-0.658	0.709	8	-6.736	1	0.0904	0.00188	0.00447	0.0657	0.855	129.699	audio_features	3GfOAdcoc3X5GPiiXmpBjK	spotify:track:3GfOAdcoc3X5GPiiXmpBjK	https://api.spotify.com/v1/tracks/3GfOAdcoc3X5GPiiXmpBjK	https://api.spotify.com/v1/audio-analysis/3GfOAdcoc3X5GPiiXmpBjK	121880	4	Song 2
-0.483	0.662	2	-9.18	1	0.541	0.136	0	0.796	0.664	85.798	audio_features	6mUErYj38jotVlhzgGY6vl	spotify:track:6mUErYj38jotVlhzgGY6vl	https://api.spotify.com/v1/tracks/6mUErYj38jotVlhzgGY6vl	https://api.spotify.com/v1/audio-analysis/6mUErYj38jotVlhzgGY6vl	285640	4	On Me - feat. Kendrick Lamar
-0.924	0.543	7	-6.612	1	0.0854	0.432	7.32e-05	0.11	0.104	99.997	audio_features	7ksRhRXztNfSwm8W7uFq1f	spotify:track:7ksRhRXztNfSwm8W7uFq1f	https://api.spotify.com/v1/tracks/7ksRhRXztNfSwm8W7uFq1f	https://api.spotify.com/v1/audio-analysis/7ksRhRXztNfSwm8W7uFq1f	183159	4	Norf Norf
-0.494	0.78	2	-5.841	1	0.301	0.352	0	0.396	0.884	139.725	audio_features	7ltU1GaKFF6CxmLuD5SRLp	spotify:track:7ltU1GaKFF6CxmLuD5SRLp	https://api.spotify.com/v1/tracks/7ltU1GaKFF6CxmLuD5SRLp	https://api.spotify.com/v1/audio-analysis/7ltU1GaKFF6CxmLuD5SRLp	179009	4	Coward
-0.51	0.503	10	-8.756	0	0.242	0.0216	0.002	0.108	0.193	153.582	audio_features	6plT7nFGiXKSBP9HFSI4ef	spotify:track:6plT7nFGiXKSBP9HFSI4ef	https://api.spotify.com/v1/tracks/6plT7nFGiXKSBP9HFSI4ef	https://api.spotify.com/v1/audio-analysis/6plT7nFGiXKSBP9HFSI4ef	243773	4	Chum
-0.548	0.829	1	-4.103	0	0.285	0.339	0	0.537	0.452	93.62	audio_features	5jNrszQHRIVKmS9Ptb63pe	spotify:track:5jNrszQHRIVKmS9Ptb63pe	https://api.spotify.com/v1/tracks/5jNrszQHRIVKmS9Ptb63pe	https://api.spotify.com/v1/audio-analysis/5jNrszQHRIVKmS9Ptb63pe	194739	4	Paper Trail$
-0.743	0.508	2	-8.145	1	0.0708	0.0521	0	0.153	0.0548	83.998	audio_features	1tA9cQEtQPvUdcndCUcP9E	spotify:track:1tA9cQEtQPvUdcndCUcP9E	https://api.spotify.com/v1/tracks/1tA9cQEtQPvUdcndCUcP9E	https://api.spotify.com/v1/audio-analysis/1tA9cQEtQPvUdcndCUcP9E	219937	4	White Crime
-0.644	0.272	11	-14.97	0	0.107	0.0105	0.146	0.0666	0.603	121.237	audio_features	7hI4fnPilSenRqMNaDhIET	spotify:track:7hI4fnPilSenRqMNaDhIET	https://api.spotify.com/v1/tracks/7hI4fnPilSenRqMNaDhIET	https://api.spotify.com/v1/audio-analysis/7hI4fnPilSenRqMNaDhIET	224373	3	Taxi Talk - Original Mix
-0.799	0.479	11	-11.153	0	0.0959	0.0218	0.607	0.11	0.285	119.007	audio_features	2SgTRfGIXc9xS9x5UFOyVT	spotify:track:2SgTRfGIXc9xS9x5UFOyVT	https://api.spotify.com/v1/tracks/2SgTRfGIXc9xS9x5UFOyVT	https://api.spotify.com/v1/audio-analysis/2SgTRfGIXc9xS9x5UFOyVT	451753	4	Bleak
-0.75	0.884	1	-5.395	1	0.0634	0.0246	3.57e-06	0.238	0.867	121.915	audio_features	69x16JmnJxuLVP9ELBoY03	spotify:track:69x16JmnJxuLVP9ELBoY03	https://api.spotify.com/v1/tracks/69x16JmnJxuLVP9ELBoY03	https://api.spotify.com/v1/audio-analysis/69x16JmnJxuLVP9ELBoY03	231933	4	i
-0.467	0.58	0	-12.792	0	0.272	0.0735	0	0.091	0.465	130.091	audio_features	4H45wRMStWCWwCLQ8TEz1z	spotify:track:4H45wRMStWCWwCLQ8TEz1z	https://api.spotify.com/v1/tracks/4H45wRMStWCWwCLQ8TEz1z	https://api.spotify.com/v1/audio-analysis/4H45wRMStWCWwCLQ8TEz1z	332560	4	Weak Become Heroes
-0.765	0.486	11	-12.379	0	0.0309	0.818	0.374	0.084	0.422	122.908	audio_features	6rxEjkoar48SssZePbtb2x	spotify:track:6rxEjkoar48SssZePbtb2x	https://api.spotify.com/v1/tracks/6rxEjkoar48SssZePbtb2x	https://api.spotify.com/v1/audio-analysis/6rxEjkoar48SssZePbtb2x	201947	4	Crystalised
-0.743	0.939	1	-7.614	1	0.501	0.359	0	0.35	0.537	96.05	audio_features	1fYvrgUzOwrwynHkvguZXd	spotify:track:1fYvrgUzOwrwynHkvguZXd	https://api.spotify.com/v1/tracks/1fYvrgUzOwrwynHkvguZXd	https://api.spotify.com/v1/audio-analysis/1fYvrgUzOwrwynHkvguZXd	165640	4	React
-0.522	0.437	1	-10.1	0	0.289	0.0282	0	0.892	0.225	110.871	audio_features	6nBSuerrSaXseIpw1X9uOv	spotify:track:6nBSuerrSaXseIpw1X9uOv	https://api.spotify.com/v1/tracks/6nBSuerrSaXseIpw1X9uOv	https://api.spotify.com/v1/audio-analysis/6nBSuerrSaXseIpw1X9uOv	330947	3	New Faces (feat. Earl Sweatshirt & Dash)
-0.686	0.61	7	-5.902	1	0.0262	0.19	0.000931	0.071	0.766	80.567	audio_features	60rIdEPDrzyLiLC0icp3xz	spotify:track:60rIdEPDrzyLiLC0icp3xz	https://api.spotify.com/v1/tracks/60rIdEPDrzyLiLC0icp3xz	https://api.spotify.com/v1/audio-analysis/60rIdEPDrzyLiLC0icp3xz	206293	4	Flower
-0.746	0.759	2	-6.501	1	0.26	0.0145	1.44e-05	0.215	0.546	137.895	audio_features	5F2nmyKwH5FZVbaxD1EHBn	spotify:track:5F2nmyKwH5FZVbaxD1EHBn	https://api.spotify.com/v1/tracks/5F2nmyKwH5FZVbaxD1EHBn	https://api.spotify.com/v1/audio-analysis/5F2nmyKwH5FZVbaxD1EHBn	214258	4	Man
-0.761	0.843	8	-4.672	0	0.0527	0.00851	0.892	0.11	0.716	120.987	audio_features	26FB3QR46zBbkp1yX4GI4b	spotify:track:26FB3QR46zBbkp1yX4GI4b	https://api.spotify.com/v1/tracks/26FB3QR46zBbkp1yX4GI4b	https://api.spotify.com/v1/audio-analysis/26FB3QR46zBbkp1yX4GI4b	381654	4	B.F.O.D.A.A.S.
-0.532	0.858	9	-5.023	1	0.0599	0.00533	2.13e-06	0.751	0.495	125.698	audio_features	6Th6ND8RQPywiyelecP5Lf	spotify:track:6Th6ND8RQPywiyelecP5Lf	https://api.spotify.com/v1/tracks/6Th6ND8RQPywiyelecP5Lf	https://api.spotify.com/v1/audio-analysis/6Th6ND8RQPywiyelecP5Lf	215533	4	What Do You Do for Money Honey
-0.619	0.742	1	-6.995	1	0.496	0.204	0	0.166	0.782	144.602	audio_features	6JKoTnberZoBgUuxa6l4Kh	spotify:track:6JKoTnberZoBgUuxa6l4Kh	https://api.spotify.com/v1/tracks/6JKoTnberZoBgUuxa6l4Kh	https://api.spotify.com/v1/audio-analysis/6JKoTnberZoBgUuxa6l4Kh	277240	4	Hive
-0.84	0.453	1	-10.828	1	0.0612	0.00146	0.419	0.0799	0.353	119.004	audio_features	5WsDRf1ldzeP97rs7lhSDi	spotify:track:5WsDRf1ldzeP97rs7lhSDi	https://api.spotify.com/v1/tracks/5WsDRf1ldzeP97rs7lhSDi	https://api.spotify.com/v1/audio-analysis/5WsDRf1ldzeP97rs7lhSDi	400373	4	Pain In The Ass - Original Mix
-0.695	0.827	6	-5.742	0	0.282	0.179	0	0.283	0.538	81.024	audio_features	4fVqQKbROkz8Z9FFJS7vls	spotify:track:4fVqQKbROkz8Z9FFJS7vls	https://api.spotify.com/v1/tracks/4fVqQKbROkz8Z9FFJS7vls	https://api.spotify.com/v1/audio-analysis/4fVqQKbROkz8Z9FFJS7vls	279855	4	HiiiPower
-0.443	0.96	8	-8.07	1	0.0757	0.0231	0.434	0.351	0.243	123.378	audio_features	0bVtevEgtDIeRjCJbK3Lmv	spotify:track:0bVtevEgtDIeRjCJbK3Lmv	https://api.spotify.com/v1/tracks/0bVtevEgtDIeRjCJbK3Lmv	https://api.spotify.com/v1/audio-analysis/0bVtevEgtDIeRjCJbK3Lmv	274027	4	Welcome To The Jungle
-0.577	0.828	6	-8.691	0	0.0298	0.00213	0.0114	0.0581	0.604	123.257	audio_features	1bdXMstfxFWYSkEFTnJMoN	spotify:track:1bdXMstfxFWYSkEFTnJMoN	https://api.spotify.com/v1/tracks/1bdXMstfxFWYSkEFTnJMoN	https://api.spotify.com/v1/audio-analysis/1bdXMstfxFWYSkEFTnJMoN	331267	4	Enter Sandman
-0.636	0.61	8	-9.665	1	0.119	0.25	0.000121	0.113	0.296	125.227	audio_features	6Bqn71zg1dznO7Ck8ykEWc	spotify:track:6Bqn71zg1dznO7Ck8ykEWc	https://api.spotify.com/v1/tracks/6Bqn71zg1dznO7Ck8ykEWc	https://api.spotify.com/v1/audio-analysis/6Bqn71zg1dznO7Ck8ykEWc	260160	3	Jazz
-0.635	0.766	11	-6.449	1	0.26	0.132	0	0.122	0.686	93.603	audio_features	1jqB1YzZaDrxYKaFqTDLUe	spotify:track:1jqB1YzZaDrxYKaFqTDLUe	https://api.spotify.com/v1/tracks/1jqB1YzZaDrxYKaFqTDLUe	https://api.spotify.com/v1/audio-analysis/1jqB1YzZaDrxYKaFqTDLUe	139931	4	Grown Up
-0.415	0.646	4	-12.021	0	0.0699	4.22e-05	0.000849	0.207	0.409	163.046	audio_features	1jzDzZWeSDBg5fhNc3tczV	spotify:track:1jzDzZWeSDBg5fhNc3tczV	https://api.spotify.com/v1/tracks/1jzDzZWeSDBg5fhNc3tczV	https://api.spotify.com/v1/audio-analysis/1jzDzZWeSDBg5fhNc3tczV	166693	4	Paranoid - 2009 Remastered Version
-0.598	0.676	0	-9.211	1	0.0279	0.13	0.225	0.112	0.805	114.169	audio_features	5MMnwYs0hIxkENRsbkWJ2G	spotify:track:5MMnwYs0hIxkENRsbkWJ2G	https://api.spotify.com/v1/tracks/5MMnwYs0hIxkENRsbkWJ2G	https://api.spotify.com/v1/audio-analysis/5MMnwYs0hIxkENRsbkWJ2G	340742	4	Smoke On the Water
-0.573	0.913	6	-4.793	0	0.132	0.0591	0.00173	0.156	0.422	115.715	audio_features	2zYzyRzz6pRmhPzyfMEC8s	spotify:track:2zYzyRzz6pRmhPzyfMEC8s	https://api.spotify.com/v1/tracks/2zYzyRzz6pRmhPzyfMEC8s	https://api.spotify.com/v1/audio-analysis/2zYzyRzz6pRmhPzyfMEC8s	208400	4	Highway to Hell
-0.479	0.549	11	-10.551	0	0.373	0.57	0.0239	0.127	0.576	180.985	audio_features	119c93MHjrDLJTApCVGpvx	spotify:track:119c93MHjrDLJTApCVGpvx	https://api.spotify.com/v1/tracks/119c93MHjrDLJTApCVGpvx	https://api.spotify.com/v1/audio-analysis/119c93MHjrDLJTApCVGpvx	252187	4	C.R.E.A.M.
-0.716	0.568	2	-8.904	1	0.212	0.278	1.98e-06	0.385	0.905	136.894	audio_features	0fAehaneUJdlSlWXYe1KZp	spotify:track:0fAehaneUJdlSlWXYe1KZp	https://api.spotify.com/v1/tracks/0fAehaneUJdlSlWXYe1KZp	https://api.spotify.com/v1/audio-analysis/0fAehaneUJdlSlWXYe1KZp	205800	4	Sunday
-0.27	0.953	11	-8.76	1	0.0797	0.0175	0.0131	0.321	0.426	100.459	audio_features	3YBZIN3rekqsKxbJc9FZko	spotify:track:3YBZIN3rekqsKxbJc9FZko	https://api.spotify.com/v1/tracks/3YBZIN3rekqsKxbJc9FZko	https://api.spotify.com/v1/audio-analysis/3YBZIN3rekqsKxbJc9FZko	408907	4	Paradise City
-0.449	0.638	0	-8.484	1	0.334	0.597	0	0.287	0.655	176.673	audio_features	0qIuovp55BJg9tSmS2ZtFK	spotify:track:0qIuovp55BJg9tSmS2ZtFK	https://api.spotify.com/v1/tracks/0qIuovp55BJg9tSmS2ZtFK	https://api.spotify.com/v1/audio-analysis/0qIuovp55BJg9tSmS2ZtFK	153733	4	Rain (feat. Vince Staples)
-0.6	0.217	0	-20.608	1	0.0928	0.971	0.51	0.1	0.202	111.502	audio_features	2DVxxnJXHhRZck3GH9wZM6	spotify:track:2DVxxnJXHhRZck3GH9wZM6	https://api.spotify.com/v1/tracks/2DVxxnJXHhRZck3GH9wZM6	https://api.spotify.com/v1/audio-analysis/2DVxxnJXHhRZck3GH9wZM6	255227	4	Walking in the Night - Original Mix
-0.848	0.666	0	-6.547	1	0.274	0.173	0.000699	0.129	0.744	96.662	audio_features	3Ti0GdlrotgwsAVBBugv0I	spotify:track:3Ti0GdlrotgwsAVBBugv0I	https://api.spotify.com/v1/tracks/3Ti0GdlrotgwsAVBBugv0I	https://api.spotify.com/v1/audio-analysis/3Ti0GdlrotgwsAVBBugv0I	251573	4	Can I Kick It?
-0.56	0.858	10	-4.09	0	0.326	0.00744	0	0.429	0.262	176.117	audio_features	5Mtt6tZSZA9cXTHGSGpyh0	spotify:track:5Mtt6tZSZA9cXTHGSGpyh0	https://api.spotify.com/v1/tracks/5Mtt6tZSZA9cXTHGSGpyh0	https://api.spotify.com/v1/audio-analysis/5Mtt6tZSZA9cXTHGSGpyh0	328827	4	The Blacker The Berry
-0.31	0.7	9	-5.678	1	0.047	0.011	0.00965	0.0828	0.763	188.386	audio_features	08mG3Y1vljYA6bvDt4Wqkj	spotify:track:08mG3Y1vljYA6bvDt4Wqkj	https://api.spotify.com/v1/tracks/08mG3Y1vljYA6bvDt4Wqkj	https://api.spotify.com/v1/audio-analysis/08mG3Y1vljYA6bvDt4Wqkj	255493	4	Back In Black
-0.412	0.902	9	-11.6	1	0.405	0.0484	0.131	0.405	0.422	89.74	audio_features	0hCB0YR03f6AmQaHbwWDe8	spotify:track:0hCB0YR03f6AmQaHbwWDe8	https://api.spotify.com/v1/tracks/0hCB0YR03f6AmQaHbwWDe8	https://api.spotify.com/v1/audio-analysis/0hCB0YR03f6AmQaHbwWDe8	333893	4	Whole Lotta Love
-0.512	0.905	1	-4.509	1	0.0573	3.21e-05	0.00011	0.102	0.692	116.746	audio_features	1f3yAtsJtY87CTmM8RLnxf	spotify:track:1f3yAtsJtY87CTmM8RLnxf	https://api.spotify.com/v1/tracks/1f3yAtsJtY87CTmM8RLnxf	https://api.spotify.com/v1/audio-analysis/1f3yAtsJtY87CTmM8RLnxf	301920	4	Smells Like Teen Spirit
-0.438	0.71	2	-12.412	1	0.0919	0.262	0.537	0.221	0.53	145.928	audio_features	63OFKbMaZSDZ4wtesuuq6f	spotify:track:63OFKbMaZSDZ4wtesuuq6f	https://api.spotify.com/v1/tracks/63OFKbMaZSDZ4wtesuuq6f	https://api.spotify.com/v1/audio-analysis/63OFKbMaZSDZ4wtesuuq6f	210373	4	Born To Be Wild
-0.694	0.394	0	-15.881	1	0.0428	0.0781	0.000677	0.247	0.719	104.126	audio_features	21jBRxUvrWXTwBfGnQwyVy	spotify:track:21jBRxUvrWXTwBfGnQwyVy	https://api.spotify.com/v1/tracks/21jBRxUvrWXTwBfGnQwyVy	https://api.spotify.com/v1/audio-analysis/21jBRxUvrWXTwBfGnQwyVy	238747	4	Another Brick In The Wall, Pt. 2 - 2011 Remastered Version
-0.453	0.906	9	-4.001	1	0.115	0.361	0.000569	0.26	0.473	137.575	audio_features	2b9lp5A6CqSzwOrBfAFhof	spotify:track:2b9lp5A6CqSzwOrBfAFhof	https://api.spotify.com/v1/tracks/2b9lp5A6CqSzwOrBfAFhof	https://api.spotify.com/v1/audio-analysis/2b9lp5A6CqSzwOrBfAFhof	296200	4	Crazy Train - Remastered
-0.808	0.518	4	-9.552	0	0.0771	0.049	0.651	0.0707	0.652	119.999	audio_features	4RYmmMjtP3XsG3s4gWwHqE	spotify:track:4RYmmMjtP3XsG3s4gWwHqE	https://api.spotify.com/v1/tracks/4RYmmMjtP3XsG3s4gWwHqE	https://api.spotify.com/v1/audio-analysis/4RYmmMjtP3XsG3s4gWwHqE	598093	4	I'm Gonna Get You - Original Mix
-0.725	0.853	2	-7.842	1	0.0353	0.0348	0.127	0.196	0.904	136.282	audio_features	7fSGbZLhWlAiCC3HDPAULu	spotify:track:7fSGbZLhWlAiCC3HDPAULu	https://api.spotify.com/v1/tracks/7fSGbZLhWlAiCC3HDPAULu	https://api.spotify.com/v1/audio-analysis/7fSGbZLhWlAiCC3HDPAULu	222813	4	(I Can't Get No) Satisfaction - Mono Version / Remastered 2002
-0.338	0.34	9	-12.049	0	0.0339	0.58	0.0032	0.116	0.197	82.433	audio_features	5CQ30WqJwcep0pYcV4AMNc	spotify:track:5CQ30WqJwcep0pYcV4AMNc	https://api.spotify.com/v1/tracks/5CQ30WqJwcep0pYcV4AMNc	https://api.spotify.com/v1/audio-analysis/5CQ30WqJwcep0pYcV4AMNc	482830	4	Stairway To Heaven
-0.559	0.825	0	-10.725	0	0.0401	0.0771	0	0.363	0.805	122.821	audio_features	3U7H63zKWLjOuFZJUmTowp	spotify:track:3U7H63zKWLjOuFZJUmTowp	https://api.spotify.com/v1/tracks/3U7H63zKWLjOuFZJUmTowp	https://api.spotify.com/v1/audio-analysis/3U7H63zKWLjOuFZJUmTowp	223733	4	You Give Love A Bad Name
-0.482	0.8	11	-9.278	0	0.0916	0.0569	0.00223	0.387	0.569	158.81	audio_features	0wzABO1igQsSy8cQ7dIeHK	spotify:track:0wzABO1igQsSy8cQ7dIeHK	https://api.spotify.com/v1/tracks/0wzABO1igQsSy8cQ7dIeHK	https://api.spotify.com/v1/audio-analysis/0wzABO1igQsSy8cQ7dIeHK	202267	4	Paint It Black
-0.893	0.346	1	-14.319	1	0.238	0.0187	0.631	0.105	0.717	121.674	audio_features	3SSpjBXyIlVhM1NibwuiHb	spotify:track:3SSpjBXyIlVhM1NibwuiHb	https://api.spotify.com/v1/tracks/3SSpjBXyIlVhM1NibwuiHb	https://api.spotify.com/v1/audio-analysis/3SSpjBXyIlVhM1NibwuiHb	337960	4	Mystery (DJ-Kicks) - mixed
-0.69	0.739	3	-11.513	0	0.059	0.0127	0.905	0.0744	0.384	125.007	audio_features	5nbttXsM0PYqyASw0IQ1ux	spotify:track:5nbttXsM0PYqyASw0IQ1ux	https://api.spotify.com/v1/tracks/5nbttXsM0PYqyASw0IQ1ux	https://api.spotify.com/v1/audio-analysis/5nbttXsM0PYqyASw0IQ1ux	463406	4	Solitary Daze
-0.855	0.425	7	-12.939	1	0.0953	0.111	0.852	0.0774	0.195	120.025	audio_features	43mulJ5Q7ECMNpqpmtflNt	spotify:track:43mulJ5Q7ECMNpqpmtflNt	https://api.spotify.com/v1/tracks/43mulJ5Q7ECMNpqpmtflNt	https://api.spotify.com/v1/audio-analysis/43mulJ5Q7ECMNpqpmtflNt	446053	4	The Way Back
-0.786	0.69	1	-10.223	0	0.0683	0.00284	0.912	0.227	0.219	128.892	audio_features	2cVPZYAzumN7R0Zsh9mGA2	spotify:track:2cVPZYAzumN7R0Zsh9mGA2	https://api.spotify.com/v1/tracks/2cVPZYAzumN7R0Zsh9mGA2	https://api.spotify.com/v1/audio-analysis/2cVPZYAzumN7R0Zsh9mGA2	433307	4	Domino
-0.793	0.608	6	-11.638	0	0.0673	0.588	0.861	0.0991	0.118	124.988	audio_features	7p6oXzBSPAXXz8Xb8gBPki	spotify:track:7p6oXzBSPAXXz8Xb8gBPki	https://api.spotify.com/v1/tracks/7p6oXzBSPAXXz8Xb8gBPki	https://api.spotify.com/v1/audio-analysis/7p6oXzBSPAXXz8Xb8gBPki	383972	4	Subzero - Original Mix
-0.838	0.501	10	-9.515	0	0.0796	0.0775	0.151	0.112	0.488	127.0	audio_features	49PubEYjr226JgABczXokZ	spotify:track:49PubEYjr226JgABczXokZ	https://api.spotify.com/v1/tracks/49PubEYjr226JgABczXokZ	https://api.spotify.com/v1/audio-analysis/49PubEYjr226JgABczXokZ	304107	4	Summertime - Original Mix
-0.763	0.806	5	-7.399	0	0.044	0.000137	0.91	0.295	0.33	124.99	audio_features	5YDbSfN5oKWBoeyf9nBA38	spotify:track:5YDbSfN5oKWBoeyf9nBA38	https://api.spotify.com/v1/tracks/5YDbSfN5oKWBoeyf9nBA38	https://api.spotify.com/v1/audio-analysis/5YDbSfN5oKWBoeyf9nBA38	405699	4	Rave
-0.483	0.786	7	-5.735	1	0.0319	0.00316	8.86e-05	0.446	0.793	126.748	audio_features	4DMKwE2E2iYDKY01C335Uw	spotify:track:4DMKwE2E2iYDKY01C335Uw	https://api.spotify.com/v1/tracks/4DMKwE2E2iYDKY01C335Uw	https://api.spotify.com/v1/audio-analysis/4DMKwE2E2iYDKY01C335Uw	323000	4	Carry on Wayward Son
-0.643	0.669	0	-7.485	1	0.0398	0.208	0.00664	0.151	0.609	132.709	audio_features	3yI282DoIJyERd0vGukMoB	spotify:track:3yI282DoIJyERd0vGukMoB	https://api.spotify.com/v1/tracks/3yI282DoIJyERd0vGukMoB	https://api.spotify.com/v1/audio-analysis/3yI282DoIJyERd0vGukMoB	140773	4	Fortunate Son
-0.545	0.64	4	-9.937	0	0.224	0.00249	0.0304	0.196	0.606	80.544	audio_features	70YvYr2hGlS01bKRIho1HM	spotify:track:70YvYr2hGlS01bKRIho1HM	https://api.spotify.com/v1/tracks/70YvYr2hGlS01bKRIho1HM	https://api.spotify.com/v1/audio-analysis/70YvYr2hGlS01bKRIho1HM	230480	4	La Grange - 2005 Remastered Version
-0.579	0.508	2	-9.484	1	0.027	0.00574	0.000494	0.0575	0.609	147.125	audio_features	40riOy7x9W7GXjyGp4pjAv	spotify:track:40riOy7x9W7GXjyGp4pjAv	https://api.spotify.com/v1/tracks/40riOy7x9W7GXjyGp4pjAv	https://api.spotify.com/v1/audio-analysis/40riOy7x9W7GXjyGp4pjAv	391376	4	Hotel California - Remastered
-0.316	0.484	9	-9.11	0	0.0308	0.000334	0.00445	0.0912	0.299	117.363	audio_features	4mn2kNTqiGLwaUR8JdhJ1l	spotify:track:4mn2kNTqiGLwaUR8JdhJ1l	https://api.spotify.com/v1/tracks/4mn2kNTqiGLwaUR8JdhJ1l	https://api.spotify.com/v1/audio-analysis/4mn2kNTqiGLwaUR8JdhJ1l	269907	3	The House Of The Rising Sun
-0.698	0.493	9	-12.506	1	0.0278	0.043	0.0429	0.308	0.671	105.268	audio_features	3ykSdTGmYPFl8pDBXer1zG	spotify:track:3ykSdTGmYPFl8pDBXer1zG	https://api.spotify.com/v1/tracks/3ykSdTGmYPFl8pDBXer1zG	https://api.spotify.com/v1/audio-analysis/3ykSdTGmYPFl8pDBXer1zG	221640	4	Cocaine
-0.437	0.864	4	-7.842	0	0.0904	0.396	0.0314	0.242	0.749	81.394	audio_features	3qT4bUD1MaWpGrTwcvguhb	spotify:track:3qT4bUD1MaWpGrTwcvguhb	https://api.spotify.com/v1/tracks/3qT4bUD1MaWpGrTwcvguhb	https://api.spotify.com/v1/audio-analysis/3qT4bUD1MaWpGrTwcvguhb	295387	4	Black Dog
-0.469	0.537	9	-10.421	1	0.152	0.0241	0.00201	0.269	0.783	124.193	audio_features	1SwE3FURO4wYshsLRggtfv	spotify:track:1SwE3FURO4wYshsLRggtfv	https://api.spotify.com/v1/tracks/1SwE3FURO4wYshsLRggtfv	https://api.spotify.com/v1/audio-analysis/1SwE3FURO4wYshsLRggtfv	382834	1	Money - 2011 Remastered Version
-0.687	0.744	2	-8.085	1	0.0545	0.000189	0.875	0.0924	0.526	124.012	audio_features	6TcpM1p0xHy1smBjxEF73s	spotify:track:6TcpM1p0xHy1smBjxEF73s	https://api.spotify.com/v1/tracks/6TcpM1p0xHy1smBjxEF73s	https://api.spotify.com/v1/audio-analysis/6TcpM1p0xHy1smBjxEF73s	441090	4	Conjure Dreams
-0.698	0.742	7	-8.047	1	0.0433	0.000634	0.851	0.102	0.0863	125.993	audio_features	1rd3bZL1cR7gETcEw27apY	spotify:track:1rd3bZL1cR7gETcEw27apY	https://api.spotify.com/v1/tracks/1rd3bZL1cR7gETcEw27apY	https://api.spotify.com/v1/audio-analysis/1rd3bZL1cR7gETcEw27apY	501060	4	Run Baby Run
-0.662	0.738	2	-10.308	1	0.0349	0.00763	0.911	0.103	0.0542	124.996	audio_features	37WaRvUdhksv1AL5I7RB6k	spotify:track:37WaRvUdhksv1AL5I7RB6k	https://api.spotify.com/v1/tracks/37WaRvUdhksv1AL5I7RB6k	https://api.spotify.com/v1/audio-analysis/37WaRvUdhksv1AL5I7RB6k	430031	4	Cloud Generator
-0.522	0.823	6	-6.148	0	0.0578	0.0211	0.909	0.119	0.316	125.061	audio_features	3Fvvgf6VlGrWWo03SaIayb	spotify:track:3Fvvgf6VlGrWWo03SaIayb	https://api.spotify.com/v1/tracks/3Fvvgf6VlGrWWo03SaIayb	https://api.spotify.com/v1/audio-analysis/3Fvvgf6VlGrWWo03SaIayb	481760	4	Rej
-0.797	0.693	2	-7.949	1	0.0599	0.00098	0.926	0.106	0.114	130.013	audio_features	55CPt0iX8f2IZvWeGNt0YH	spotify:track:55CPt0iX8f2IZvWeGNt0YH	https://api.spotify.com/v1/tracks/55CPt0iX8f2IZvWeGNt0YH	https://api.spotify.com/v1/audio-analysis/55CPt0iX8f2IZvWeGNt0YH	295915	1	I Wanna Go Bang - Original Mix
-0.673	0.982	9	-6.698	0	0.0547	0.00148	0.726	0.0413	0.646	123.999	audio_features	3KUoiySr90tw8XSW8Ezmx4	spotify:track:3KUoiySr90tw8XSW8Ezmx4	https://api.spotify.com/v1/tracks/3KUoiySr90tw8XSW8Ezmx4	https://api.spotify.com/v1/audio-analysis/3KUoiySr90tw8XSW8Ezmx4	443224	4	Veins
-Duration
-6.56
-5.1
-3.4
-5.10
-4.9
-4.44
-2.35
-4.43
-4.55
-2.59
-5.12
-2.33
-3.35
-4.52
-5.25
-3.36
-3.44
-2.53
-6.26
-4.31
-4.1
-2.43
-3.35
-5.50
-2.29
-4.10
-3.39
-3.59
-3.32
-4.15
-4.52
-2.7
-4.8
-2.1
-4.45
-3.3
-2.59
-4.3
-3.14
-3.39
-3.44
-7.31
-3.51
-5.32
-3.21
-2.45
-5.30
-3.26
-3.34
-6.21
-3.35
-4.37
-6.40
-4.39
-4.34
-5.31
-4.20
-2.19
-2.46
-5.40
-3.28
-4.12
-3.25
-6.48
-2.33
-4.15
-4.11
-5.28
-4.15
-5.33
-5.1
-3.30
-3.58
-4.56
-9.58
-3.42
-8.2
-3.43
-3.22
-5.37
-7.43
-7.26
-7.13
-6.23
-5.4
-6.45
-5.23
-2.20
-3.50
-6.31
-4.29
-3.41
-4.55
-6.22
-7.21
-8.21
-7.10
-8.1
-4.55
-7.23
+danceability	energy	key	loudness	mode	speechiness	acousticness	instrumentalness	liveness	valence	tempo	type	id	uri	track_href	analysis_url	duration_ms	time_signature	name	duration
+0.7	0.546	5	-7.705	0	0.109	0.0131	0.0305	0.172	0.302	80.004	audio_features	5ZVujHtwnsqFJvLnqRSdch	spotify:track:5ZVujHtwnsqFJvLnqRSdch	https://api.spotify.com/v1/tracks/5ZVujHtwnsqFJvLnqRSdch	https://api.spotify.com/v1/audio-analysis/5ZVujHtwnsqFJvLnqRSdch	416000	4	Bad Karma	6.56	0.7
+0.889	0.393	4	-10.821	0	0.267	0.331	8.67e-06	0.283	0.304	128.065	audio_features	16qYlQ6koFxYVbiJbGHblz	spotify:track:16qYlQ6koFxYVbiJbGHblz	https://api.spotify.com/v1/tracks/16qYlQ6koFxYVbiJbGHblz	https://api.spotify.com/v1/audio-analysis/16qYlQ6koFxYVbiJbGHblz	301133	4	G.O.M.D.	5.1	0.889
+0.642	0.725	7	-6.94	1	0.0519	0.00733	0.000567	0.102	0.656	169.959	audio_features	2qHMwwXW5XGSpggg8WAit6	spotify:track:2qHMwwXW5XGSpggg8WAit6	https://api.spotify.com/v1/tracks/2qHMwwXW5XGSpggg8WAit6	https://api.spotify.com/v1/audio-analysis/2qHMwwXW5XGSpggg8WAit6	184600	4	I Swear	3.4	0.642
+0.59	0.702	1	-9.058	1	0.0817	0.0135	0	0.428	0.124	134.023	audio_features	5h5tBFnbcVioFXiOixTn6E	spotify:track:5h5tBFnbcVioFXiOixTn6E	https://api.spotify.com/v1/tracks/5h5tBFnbcVioFXiOixTn6E	https://api.spotify.com/v1/audio-analysis/5h5tBFnbcVioFXiOixTn6E	310720	4	Bitch, Don’t Kill My Vibe	5.10	0.59
+0.712	0.759	11	-5.397	1	0.334	0.016	0.0808	0.217	0.738	79.103	audio_features	4OKXvqtfwlvY2fYJ2lzHPH	spotify:track:4OKXvqtfwlvY2fYJ2lzHPH	https://api.spotify.com/v1/tracks/4OKXvqtfwlvY2fYJ2lzHPH	https://api.spotify.com/v1/audio-analysis/4OKXvqtfwlvY2fYJ2lzHPH	249333	4	Yonkers	4.9	0.712
+0.693	0.494	1	-8.801	1	0.143	0.291	0.055	0.101	0.418	94.254	audio_features	366xKgsZ8bFjIhG7JjfCkj	spotify:track:366xKgsZ8bFjIhG7JjfCkj	https://api.spotify.com/v1/tracks/366xKgsZ8bFjIhG7JjfCkj	https://api.spotify.com/v1/audio-analysis/366xKgsZ8bFjIhG7JjfCkj	284693	4	Melatonin	4.44	0.693
+0.803	0.338	6	-14.029	1	0.0349	0.196	0.038	0.097	0.912	106.841	audio_features	6PgVDY8GTkxF3GmhVGPzoB	spotify:track:6PgVDY8GTkxF3GmhVGPzoB	https://api.spotify.com/v1/tracks/6PgVDY8GTkxF3GmhVGPzoB	https://api.spotify.com/v1/audio-analysis/6PgVDY8GTkxF3GmhVGPzoB	155707	4	Hold On, I'm Comin'	2.35	0.803
+0.501	0.899	0	-5.384	1	0.0563	0.0987	2.31e-06	0.613	0.723	134.805	audio_features	5nvjZnTa1PUFV8hfrcMKYc	spotify:track:5nvjZnTa1PUFV8hfrcMKYc	https://api.spotify.com/v1/tracks/5nvjZnTa1PUFV8hfrcMKYc	https://api.spotify.com/v1/audio-analysis/5nvjZnTa1PUFV8hfrcMKYc	283360	4	The Passenger	4.43	0.501
+0.723	0.927	1	-3.203	0	0.183	0.0986	0	0.305	0.545	101.978	audio_features	1aBXNJsLuOeo6ZIeNRkbRc	spotify:track:1aBXNJsLuOeo6ZIeNRkbRc	https://api.spotify.com/v1/tracks/1aBXNJsLuOeo6ZIeNRkbRc	https://api.spotify.com/v1/audio-analysis/1aBXNJsLuOeo6ZIeNRkbRc	295413	4	Holla At Me	4.55	0.723
+0.468	0.823	4	-3.973	1	0.466	0.81	0	0.598	0.941	74.457	audio_features	2LPUvD5DDOO4UYGkWgjI2C	spotify:track:2LPUvD5DDOO4UYGkWgjI2C	https://api.spotify.com/v1/tracks/2LPUvD5DDOO4UYGkWgjI2C	https://api.spotify.com/v1/audio-analysis/2LPUvD5DDOO4UYGkWgjI2C	179564	4	Shut Up	2.59	0.468
+0.389	0.873	4	-4.768	0	0.0475	0.00532	0.0055	0.273	0.303	106.767	audio_features	69QHm3pustz01CJRwdo20z	spotify:track:69QHm3pustz01CJRwdo20z	https://api.spotify.com/v1/tracks/69QHm3pustz01CJRwdo20z	https://api.spotify.com/v1/audio-analysis/69QHm3pustz01CJRwdo20z	312293	4	Hells Bells	5.12	0.389
+0.686	0.834	5	-4.078	0	0.0365	0.00259	0	0.159	0.674	100.024	audio_features	1AdZPCOLcxUeyGRV6zcdzb	spotify:track:1AdZPCOLcxUeyGRV6zcdzb	https://api.spotify.com/v1/tracks/1AdZPCOLcxUeyGRV6zcdzb	https://api.spotify.com/v1/audio-analysis/1AdZPCOLcxUeyGRV6zcdzb	153810	4	Speeding Bullets	2.33	0.686
+0.959	0.524	9	-8.145	0	0.274	0.316	0	0.274	0.84	119.933	audio_features	6jl01C724Mk68qlOQLco5I	spotify:track:6jl01C724Mk68qlOQLco5I	https://api.spotify.com/v1/tracks/6jl01C724Mk68qlOQLco5I	https://api.spotify.com/v1/audio-analysis/6jl01C724Mk68qlOQLco5I	215792	4	Blow My High (Members Only)	3.35	0.959
+0.492	0.862	4	-9.158	0	0.0273	0.0121	0.213	0.228	0.591	112.598	audio_features	758wEKVqfYopJIHYWdLVd4	spotify:track:758wEKVqfYopJIHYWdLVd4	https://api.spotify.com/v1/tracks/758wEKVqfYopJIHYWdLVd4	https://api.spotify.com/v1/audio-analysis/758wEKVqfYopJIHYWdLVd4	292800	4	I Wanna Be Adored - Remastered	4.52	0.492
+0.763	0.786	10	-6.472	0	0.229	0.0146	0.0114	0.0817	0.504	93.857	audio_features	33ZXjLCpiINn8eQIDYEPTD	spotify:track:33ZXjLCpiINn8eQIDYEPTD	https://api.spotify.com/v1/tracks/33ZXjLCpiINn8eQIDYEPTD	https://api.spotify.com/v1/audio-analysis/33ZXjLCpiINn8eQIDYEPTD	325507	4	Shook Ones, Pt. II	5.25	0.763
+0.743	0.861	3	-5.234	1	0.0428	0.00518	0	0.181	0.391	111.959	audio_features	4UtLXegebv7qNBF26nivhZ	spotify:track:4UtLXegebv7qNBF26nivhZ	https://api.spotify.com/v1/tracks/4UtLXegebv7qNBF26nivhZ	https://api.spotify.com/v1/audio-analysis/4UtLXegebv7qNBF26nivhZ	216013	4	Man Of The Year	3.36	0.743
+0.81	0.36	7	-13.929	1	0.0684	0.00204	0.849	0.0892	0.0376	120.004	audio_features	6pGs4VS6BV0WnooovrrxRj	spotify:track:6pGs4VS6BV0WnooovrrxRj	https://api.spotify.com/v1/tracks/6pGs4VS6BV0WnooovrrxRj	https://api.spotify.com/v1/audio-analysis/6pGs4VS6BV0WnooovrrxRj	224800	4	Ghetto Kraviz - Original Mix	3.44	0.81
+0.46	0.904	5	-7.853	0	0.14	0.0113	0.792	0.0842	0.558	162.041	audio_features	2Ddw6YzFbBosbNm3MB1LaS	spotify:track:2Ddw6YzFbBosbNm3MB1LaS	https://api.spotify.com/v1/tracks/2Ddw6YzFbBosbNm3MB1LaS	https://api.spotify.com/v1/audio-analysis/2Ddw6YzFbBosbNm3MB1LaS	173131	4	No Care	2.53	0.46
+0.716	0.53	7	-7.38	1	0.132	0.0739	0	0.216	0.362	71.981	audio_features	0UtnpKaReKUg2GquaSxCyD	spotify:track:0UtnpKaReKUg2GquaSxCyD	https://api.spotify.com/v1/tracks/0UtnpKaReKUg2GquaSxCyD	https://api.spotify.com/v1/audio-analysis/0UtnpKaReKUg2GquaSxCyD	386907	4	Money Trees	6.26	0.716
+0.65	0.613	1	-7.905	1	0.0353	0.00166	0.00232	0.144	0.281	120.043	audio_features	0ecnhvnmSc8atdkbvYf2TR	spotify:track:0ecnhvnmSc8atdkbvYf2TR	https://api.spotify.com/v1/tracks/0ecnhvnmSc8atdkbvYf2TR	https://api.spotify.com/v1/audio-analysis/0ecnhvnmSc8atdkbvYf2TR	271959	4	Lift Me Up	4.31	0.65
+0.754	0.556	8	-7.114	1	0.355	0.191	0	0.0987	0.455	120.859	audio_features	3w23sQ5FSzCKEviFYf0nSQ	spotify:track:3w23sQ5FSzCKEviFYf0nSQ	https://api.spotify.com/v1/tracks/3w23sQ5FSzCKEviFYf0nSQ	https://api.spotify.com/v1/audio-analysis/3w23sQ5FSzCKEviFYf0nSQ	241224	4	Smoke & Retribution	4.1	0.754
+0.636	0.561	0	-5.584	0	0.185	0.149	0	0.0935	0.371	85.173	audio_features	4XkXgUNDVBMj3oJoE8yspZ	spotify:track:4XkXgUNDVBMj3oJoE8yspZ	https://api.spotify.com/v1/tracks/4XkXgUNDVBMj3oJoE8yspZ	https://api.spotify.com/v1/audio-analysis/4XkXgUNDVBMj3oJoE8yspZ	163587	4	Numbers On The Boards	2.43	0.636
+0.609	0.799	9	-6.883	1	0.24	0.33	0	0.108	0.582	157.74	audio_features	2MYl0er3UZ1RlKwRb5LODh	spotify:track:2MYl0er3UZ1RlKwRb5LODh	https://api.spotify.com/v1/tracks/2MYl0er3UZ1RlKwRb5LODh	https://api.spotify.com/v1/audio-analysis/2MYl0er3UZ1RlKwRb5LODh	215509	4	A.D.H.D	3.35	0.609
+0.45	0.721	10	-6.809	1	0.322	0.0548	2.81e-06	0.455	0.232	181.656	audio_features	0nfQguNoAfKFjsQHr6qnxc	spotify:track:0nfQguNoAfKFjsQHr6qnxc	https://api.spotify.com/v1/tracks/0nfQguNoAfKFjsQHr6qnxc	https://api.spotify.com/v1/audio-analysis/0nfQguNoAfKFjsQHr6qnxc	350120	4	m.A.A.d city	5.50	0.45
+0.515	0.877	1	-7.628	0	0.228	0.00169	0.603	0.511	0.558	173.964	audio_features	3F1cVurf5O2SBcJvSvY4cq	spotify:track:3F1cVurf5O2SBcJvSvY4cq	https://api.spotify.com/v1/tracks/3F1cVurf5O2SBcJvSvY4cq	https://api.spotify.com/v1/audio-analysis/3F1cVurf5O2SBcJvSvY4cq	149027	4	Make You Wanna	2.29	0.515
+0.498	0.337	11	-11.035	0	0.0332	0.779	2.1e-06	0.111	0.207	98.061	audio_features	09BoTSQdcXgaN5AeozxArT	spotify:track:09BoTSQdcXgaN5AeozxArT	https://api.spotify.com/v1/tracks/09BoTSQdcXgaN5AeozxArT	https://api.spotify.com/v1/audio-analysis/09BoTSQdcXgaN5AeozxArT	250347	4	Clocks Go Forward	4.10	0.498
+0.796	0.766	7	-5.974	1	0.238	0.0742	0	0.0827	0.558	110.034	audio_features	33i0KOPBWURNW3l97a4QPy	spotify:track:33i0KOPBWURNW3l97a4QPy	https://api.spotify.com/v1/tracks/33i0KOPBWURNW3l97a4QPy	https://api.spotify.com/v1/audio-analysis/33i0KOPBWURNW3l97a4QPy	219333	4	Alright	3.39	0.796
+0.504	0.705	6	-8.205	0	0.364	0.0752	0	0.128	0.584	175.483	audio_features	6Ius4TC0L3cN74HT7ENE6e	spotify:track:6Ius4TC0L3cN74HT7ENE6e	https://api.spotify.com/v1/tracks/6Ius4TC0L3cN74HT7ENE6e	https://api.spotify.com/v1/audio-analysis/6Ius4TC0L3cN74HT7ENE6e	239320	4	Wet Dreamz	3.59	0.504
+0.845	0.52	10	-10.411	0	0.155	0.137	0.0234	0.167	0.422	94.968	audio_features	1KBTokLJtUW17RGLQPiVwM	spotify:track:1KBTokLJtUW17RGLQPiVwM	https://api.spotify.com/v1/tracks/1KBTokLJtUW17RGLQPiVwM	https://api.spotify.com/v1/audio-analysis/1KBTokLJtUW17RGLQPiVwM	212045	4	The Art of Peer Pressure	3.32	0.845
+0.4	0.902	9	-4.385	1	0.0523	0.115	0.000116	0.139	0.632	105.659	audio_features	5XeMsYb1rWxQL1bUUaZajn	spotify:track:5XeMsYb1rWxQL1bUUaZajn	https://api.spotify.com/v1/tracks/5XeMsYb1rWxQL1bUUaZajn	https://api.spotify.com/v1/audio-analysis/5XeMsYb1rWxQL1bUUaZajn	255267	4	Let Me Put My Love Into You	4.15	0.4
+0.696	0.521	10	-8.465	0	0.332	0.302	0	0.0565	0.458	100.0	audio_features	62vpWI1CHwFy7tMIcSStl8	spotify:track:62vpWI1CHwFy7tMIcSStl8	https://api.spotify.com/v1/tracks/62vpWI1CHwFy7tMIcSStl8	https://api.spotify.com/v1/audio-analysis/62vpWI1CHwFy7tMIcSStl8	292987	4	No Role Modelz	4.52	0.696
+0.607	0.789	9	-8.87	0	0.0278	0.46	0.907	0.128	0.16	100.351	audio_features	0bXpmJyHHYPk6QBFj25bYF	spotify:track:0bXpmJyHHYPk6QBFj25bYF	https://api.spotify.com/v1/tracks/0bXpmJyHHYPk6QBFj25bYF	https://api.spotify.com/v1/audio-analysis/0bXpmJyHHYPk6QBFj25bYF	127920	4	Intro	2.7	0.607
+0.328	0.911	1	-4.404	0	0.418	0.0749	0	0.381	0.222	171.16	audio_features	0O6cYePgIBlMQ0pAFate3q	spotify:track:0O6cYePgIBlMQ0pAFate3q	https://api.spotify.com/v1/tracks/0O6cYePgIBlMQ0pAFate3q	https://api.spotify.com/v1/audio-analysis/0O6cYePgIBlMQ0pAFate3q	248093	4	Compton	4.8	0.328
+0.658	0.709	8	-6.736	1	0.0904	0.00188	0.00447	0.0657	0.855	129.699	audio_features	3GfOAdcoc3X5GPiiXmpBjK	spotify:track:3GfOAdcoc3X5GPiiXmpBjK	https://api.spotify.com/v1/tracks/3GfOAdcoc3X5GPiiXmpBjK	https://api.spotify.com/v1/audio-analysis/3GfOAdcoc3X5GPiiXmpBjK	121880	4	Song 2	2.1	0.658
+0.483	0.662	2	-9.18	1	0.541	0.136	0	0.796	0.664	85.798	audio_features	6mUErYj38jotVlhzgGY6vl	spotify:track:6mUErYj38jotVlhzgGY6vl	https://api.spotify.com/v1/tracks/6mUErYj38jotVlhzgGY6vl	https://api.spotify.com/v1/audio-analysis/6mUErYj38jotVlhzgGY6vl	285640	4	On Me - feat. Kendrick Lamar	4.45	0.483
+0.924	0.543	7	-6.612	1	0.0854	0.432	7.32e-05	0.11	0.104	99.997	audio_features	7ksRhRXztNfSwm8W7uFq1f	spotify:track:7ksRhRXztNfSwm8W7uFq1f	https://api.spotify.com/v1/tracks/7ksRhRXztNfSwm8W7uFq1f	https://api.spotify.com/v1/audio-analysis/7ksRhRXztNfSwm8W7uFq1f	183159	4	Norf Norf	3.3	0.924
+0.494	0.78	2	-5.841	1	0.301	0.352	0	0.396	0.884	139.725	audio_features	7ltU1GaKFF6CxmLuD5SRLp	spotify:track:7ltU1GaKFF6CxmLuD5SRLp	https://api.spotify.com/v1/tracks/7ltU1GaKFF6CxmLuD5SRLp	https://api.spotify.com/v1/audio-analysis/7ltU1GaKFF6CxmLuD5SRLp	179009	4	Coward	2.59	0.494
+0.51	0.503	10	-8.756	0	0.242	0.0216	0.002	0.108	0.193	153.582	audio_features	6plT7nFGiXKSBP9HFSI4ef	spotify:track:6plT7nFGiXKSBP9HFSI4ef	https://api.spotify.com/v1/tracks/6plT7nFGiXKSBP9HFSI4ef	https://api.spotify.com/v1/audio-analysis/6plT7nFGiXKSBP9HFSI4ef	243773	4	Chum	4.3	0.51
+0.548	0.829	1	-4.103	0	0.285	0.339	0	0.537	0.452	93.62	audio_features	5jNrszQHRIVKmS9Ptb63pe	spotify:track:5jNrszQHRIVKmS9Ptb63pe	https://api.spotify.com/v1/tracks/5jNrszQHRIVKmS9Ptb63pe	https://api.spotify.com/v1/audio-analysis/5jNrszQHRIVKmS9Ptb63pe	194739	4	Paper Trail$	3.14	0.548
+0.743	0.508	2	-8.145	1	0.0708	0.0521	0	0.153	0.0548	83.998	audio_features	1tA9cQEtQPvUdcndCUcP9E	spotify:track:1tA9cQEtQPvUdcndCUcP9E	https://api.spotify.com/v1/tracks/1tA9cQEtQPvUdcndCUcP9E	https://api.spotify.com/v1/audio-analysis/1tA9cQEtQPvUdcndCUcP9E	219937	4	White Crime	3.39	0.743
+0.644	0.272	11	-14.97	0	0.107	0.0105	0.146	0.0666	0.603	121.237	audio_features	7hI4fnPilSenRqMNaDhIET	spotify:track:7hI4fnPilSenRqMNaDhIET	https://api.spotify.com/v1/tracks/7hI4fnPilSenRqMNaDhIET	https://api.spotify.com/v1/audio-analysis/7hI4fnPilSenRqMNaDhIET	224373	3	Taxi Talk - Original Mix	3.44	0.644
+0.799	0.479	11	-11.153	0	0.0959	0.0218	0.607	0.11	0.285	119.007	audio_features	2SgTRfGIXc9xS9x5UFOyVT	spotify:track:2SgTRfGIXc9xS9x5UFOyVT	https://api.spotify.com/v1/tracks/2SgTRfGIXc9xS9x5UFOyVT	https://api.spotify.com/v1/audio-analysis/2SgTRfGIXc9xS9x5UFOyVT	451753	4	Bleak	7.31	0.799
+0.75	0.884	1	-5.395	1	0.0634	0.0246	3.57e-06	0.238	0.867	121.915	audio_features	69x16JmnJxuLVP9ELBoY03	spotify:track:69x16JmnJxuLVP9ELBoY03	https://api.spotify.com/v1/tracks/69x16JmnJxuLVP9ELBoY03	https://api.spotify.com/v1/audio-analysis/69x16JmnJxuLVP9ELBoY03	231933	4	i	3.51	0.75
+0.467	0.58	0	-12.792	0	0.272	0.0735	0	0.091	0.465	130.091	audio_features	4H45wRMStWCWwCLQ8TEz1z	spotify:track:4H45wRMStWCWwCLQ8TEz1z	https://api.spotify.com/v1/tracks/4H45wRMStWCWwCLQ8TEz1z	https://api.spotify.com/v1/audio-analysis/4H45wRMStWCWwCLQ8TEz1z	332560	4	Weak Become Heroes	5.32	0.467
+0.765	0.486	11	-12.379	0	0.0309	0.818	0.374	0.084	0.422	122.908	audio_features	6rxEjkoar48SssZePbtb2x	spotify:track:6rxEjkoar48SssZePbtb2x	https://api.spotify.com/v1/tracks/6rxEjkoar48SssZePbtb2x	https://api.spotify.com/v1/audio-analysis/6rxEjkoar48SssZePbtb2x	201947	4	Crystalised	3.21	0.765
+0.743	0.939	1	-7.614	1	0.501	0.359	0	0.35	0.537	96.05	audio_features	1fYvrgUzOwrwynHkvguZXd	spotify:track:1fYvrgUzOwrwynHkvguZXd	https://api.spotify.com/v1/tracks/1fYvrgUzOwrwynHkvguZXd	https://api.spotify.com/v1/audio-analysis/1fYvrgUzOwrwynHkvguZXd	165640	4	React	2.45	0.743
+0.522	0.437	1	-10.1	0	0.289	0.0282	0	0.892	0.225	110.871	audio_features	6nBSuerrSaXseIpw1X9uOv	spotify:track:6nBSuerrSaXseIpw1X9uOv	https://api.spotify.com/v1/tracks/6nBSuerrSaXseIpw1X9uOv	https://api.spotify.com/v1/audio-analysis/6nBSuerrSaXseIpw1X9uOv	330947	3	New Faces (feat. Earl Sweatshirt & Dash)	5.30	0.522
+0.686	0.61	7	-5.902	1	0.0262	0.19	0.000931	0.071	0.766	80.567	audio_features	60rIdEPDrzyLiLC0icp3xz	spotify:track:60rIdEPDrzyLiLC0icp3xz	https://api.spotify.com/v1/tracks/60rIdEPDrzyLiLC0icp3xz	https://api.spotify.com/v1/audio-analysis/60rIdEPDrzyLiLC0icp3xz	206293	4	Flower	3.26	0.686
+0.746	0.759	2	-6.501	1	0.26	0.0145	1.44e-05	0.215	0.546	137.895	audio_features	5F2nmyKwH5FZVbaxD1EHBn	spotify:track:5F2nmyKwH5FZVbaxD1EHBn	https://api.spotify.com/v1/tracks/5F2nmyKwH5FZVbaxD1EHBn	https://api.spotify.com/v1/audio-analysis/5F2nmyKwH5FZVbaxD1EHBn	214258	4	Man	3.34	0.746
+0.761	0.843	8	-4.672	0	0.0527	0.00851	0.892	0.11	0.716	120.987	audio_features	26FB3QR46zBbkp1yX4GI4b	spotify:track:26FB3QR46zBbkp1yX4GI4b	https://api.spotify.com/v1/tracks/26FB3QR46zBbkp1yX4GI4b	https://api.spotify.com/v1/audio-analysis/26FB3QR46zBbkp1yX4GI4b	381654	4	B.F.O.D.A.A.S.	6.21	0.761
+0.532	0.858	9	-5.023	1	0.0599	0.00533	2.13e-06	0.751	0.495	125.698	audio_features	6Th6ND8RQPywiyelecP5Lf	spotify:track:6Th6ND8RQPywiyelecP5Lf	https://api.spotify.com/v1/tracks/6Th6ND8RQPywiyelecP5Lf	https://api.spotify.com/v1/audio-analysis/6Th6ND8RQPywiyelecP5Lf	215533	4	What Do You Do for Money Honey	3.35	0.532
+0.619	0.742	1	-6.995	1	0.496	0.204	0	0.166	0.782	144.602	audio_features	6JKoTnberZoBgUuxa6l4Kh	spotify:track:6JKoTnberZoBgUuxa6l4Kh	https://api.spotify.com/v1/tracks/6JKoTnberZoBgUuxa6l4Kh	https://api.spotify.com/v1/audio-analysis/6JKoTnberZoBgUuxa6l4Kh	277240	4	Hive	4.37	0.619
+0.84	0.453	1	-10.828	1	0.0612	0.00146	0.419	0.0799	0.353	119.004	audio_features	5WsDRf1ldzeP97rs7lhSDi	spotify:track:5WsDRf1ldzeP97rs7lhSDi	https://api.spotify.com/v1/tracks/5WsDRf1ldzeP97rs7lhSDi	https://api.spotify.com/v1/audio-analysis/5WsDRf1ldzeP97rs7lhSDi	400373	4	Pain In The Ass - Original Mix	6.40	0.84
+0.695	0.827	6	-5.742	0	0.282	0.179	0	0.283	0.538	81.024	audio_features	4fVqQKbROkz8Z9FFJS7vls	spotify:track:4fVqQKbROkz8Z9FFJS7vls	https://api.spotify.com/v1/tracks/4fVqQKbROkz8Z9FFJS7vls	https://api.spotify.com/v1/audio-analysis/4fVqQKbROkz8Z9FFJS7vls	279855	4	HiiiPower	4.39	0.695
+0.443	0.96	8	-8.07	1	0.0757	0.0231	0.434	0.351	0.243	123.378	audio_features	0bVtevEgtDIeRjCJbK3Lmv	spotify:track:0bVtevEgtDIeRjCJbK3Lmv	https://api.spotify.com/v1/tracks/0bVtevEgtDIeRjCJbK3Lmv	https://api.spotify.com/v1/audio-analysis/0bVtevEgtDIeRjCJbK3Lmv	274027	4	Welcome To The Jungle	4.34	0.443
+0.577	0.828	6	-8.691	0	0.0298	0.00213	0.0114	0.0581	0.604	123.257	audio_features	1bdXMstfxFWYSkEFTnJMoN	spotify:track:1bdXMstfxFWYSkEFTnJMoN	https://api.spotify.com/v1/tracks/1bdXMstfxFWYSkEFTnJMoN	https://api.spotify.com/v1/audio-analysis/1bdXMstfxFWYSkEFTnJMoN	331267	4	Enter Sandman	5.31	0.577
+0.636	0.61	8	-9.665	1	0.119	0.25	0.000121	0.113	0.296	125.227	audio_features	6Bqn71zg1dznO7Ck8ykEWc	spotify:track:6Bqn71zg1dznO7Ck8ykEWc	https://api.spotify.com/v1/tracks/6Bqn71zg1dznO7Ck8ykEWc	https://api.spotify.com/v1/audio-analysis/6Bqn71zg1dznO7Ck8ykEWc	260160	3	Jazz	4.20	0.636
+0.635	0.766	11	-6.449	1	0.26	0.132	0	0.122	0.686	93.603	audio_features	1jqB1YzZaDrxYKaFqTDLUe	spotify:track:1jqB1YzZaDrxYKaFqTDLUe	https://api.spotify.com/v1/tracks/1jqB1YzZaDrxYKaFqTDLUe	https://api.spotify.com/v1/audio-analysis/1jqB1YzZaDrxYKaFqTDLUe	139931	4	Grown Up	2.19	0.635
+0.415	0.646	4	-12.021	0	0.0699	4.22e-05	0.000849	0.207	0.409	163.046	audio_features	1jzDzZWeSDBg5fhNc3tczV	spotify:track:1jzDzZWeSDBg5fhNc3tczV	https://api.spotify.com/v1/tracks/1jzDzZWeSDBg5fhNc3tczV	https://api.spotify.com/v1/audio-analysis/1jzDzZWeSDBg5fhNc3tczV	166693	4	Paranoid - 2009 Remastered Version	2.46	0.415
+0.598	0.676	0	-9.211	1	0.0279	0.13	0.225	0.112	0.805	114.169	audio_features	5MMnwYs0hIxkENRsbkWJ2G	spotify:track:5MMnwYs0hIxkENRsbkWJ2G	https://api.spotify.com/v1/tracks/5MMnwYs0hIxkENRsbkWJ2G	https://api.spotify.com/v1/audio-analysis/5MMnwYs0hIxkENRsbkWJ2G	340742	4	Smoke On the Water	5.40	0.598
+0.573	0.913	6	-4.793	0	0.132	0.0591	0.00173	0.156	0.422	115.715	audio_features	2zYzyRzz6pRmhPzyfMEC8s	spotify:track:2zYzyRzz6pRmhPzyfMEC8s	https://api.spotify.com/v1/tracks/2zYzyRzz6pRmhPzyfMEC8s	https://api.spotify.com/v1/audio-analysis/2zYzyRzz6pRmhPzyfMEC8s	208400	4	Highway to Hell	3.28	0.573
+0.479	0.549	11	-10.551	0	0.373	0.57	0.0239	0.127	0.576	180.985	audio_features	119c93MHjrDLJTApCVGpvx	spotify:track:119c93MHjrDLJTApCVGpvx	https://api.spotify.com/v1/tracks/119c93MHjrDLJTApCVGpvx	https://api.spotify.com/v1/audio-analysis/119c93MHjrDLJTApCVGpvx	252187	4	C.R.E.A.M.	4.12	0.479
+0.716	0.568	2	-8.904	1	0.212	0.278	1.98e-06	0.385	0.905	136.894	audio_features	0fAehaneUJdlSlWXYe1KZp	spotify:track:0fAehaneUJdlSlWXYe1KZp	https://api.spotify.com/v1/tracks/0fAehaneUJdlSlWXYe1KZp	https://api.spotify.com/v1/audio-analysis/0fAehaneUJdlSlWXYe1KZp	205800	4	Sunday	3.25	0.716
+0.27	0.953	11	-8.76	1	0.0797	0.0175	0.0131	0.321	0.426	100.459	audio_features	3YBZIN3rekqsKxbJc9FZko	spotify:track:3YBZIN3rekqsKxbJc9FZko	https://api.spotify.com/v1/tracks/3YBZIN3rekqsKxbJc9FZko	https://api.spotify.com/v1/audio-analysis/3YBZIN3rekqsKxbJc9FZko	408907	4	Paradise City	6.48	0.27
+0.449	0.638	0	-8.484	1	0.334	0.597	0	0.287	0.655	176.673	audio_features	0qIuovp55BJg9tSmS2ZtFK	spotify:track:0qIuovp55BJg9tSmS2ZtFK	https://api.spotify.com/v1/tracks/0qIuovp55BJg9tSmS2ZtFK	https://api.spotify.com/v1/audio-analysis/0qIuovp55BJg9tSmS2ZtFK	153733	4	Rain (feat. Vince Staples)	2.33	0.449
+0.6	0.217	0	-20.608	1	0.0928	0.971	0.51	0.1	0.202	111.502	audio_features	2DVxxnJXHhRZck3GH9wZM6	spotify:track:2DVxxnJXHhRZck3GH9wZM6	https://api.spotify.com/v1/tracks/2DVxxnJXHhRZck3GH9wZM6	https://api.spotify.com/v1/audio-analysis/2DVxxnJXHhRZck3GH9wZM6	255227	4	Walking in the Night - Original Mix	4.15	0.6
+0.848	0.666	0	-6.547	1	0.274	0.173	0.000699	0.129	0.744	96.662	audio_features	3Ti0GdlrotgwsAVBBugv0I	spotify:track:3Ti0GdlrotgwsAVBBugv0I	https://api.spotify.com/v1/tracks/3Ti0GdlrotgwsAVBBugv0I	https://api.spotify.com/v1/audio-analysis/3Ti0GdlrotgwsAVBBugv0I	251573	4	Can I Kick It?	4.11	0.848
+0.56	0.858	10	-4.09	0	0.326	0.00744	0	0.429	0.262	176.117	audio_features	5Mtt6tZSZA9cXTHGSGpyh0	spotify:track:5Mtt6tZSZA9cXTHGSGpyh0	https://api.spotify.com/v1/tracks/5Mtt6tZSZA9cXTHGSGpyh0	https://api.spotify.com/v1/audio-analysis/5Mtt6tZSZA9cXTHGSGpyh0	328827	4	The Blacker The Berry	5.28	0.56
+0.31	0.7	9	-5.678	1	0.047	0.011	0.00965	0.0828	0.763	188.386	audio_features	08mG3Y1vljYA6bvDt4Wqkj	spotify:track:08mG3Y1vljYA6bvDt4Wqkj	https://api.spotify.com/v1/tracks/08mG3Y1vljYA6bvDt4Wqkj	https://api.spotify.com/v1/audio-analysis/08mG3Y1vljYA6bvDt4Wqkj	255493	4	Back In Black	4.15	0.31
+0.412	0.902	9	-11.6	1	0.405	0.0484	0.131	0.405	0.422	89.74	audio_features	0hCB0YR03f6AmQaHbwWDe8	spotify:track:0hCB0YR03f6AmQaHbwWDe8	https://api.spotify.com/v1/tracks/0hCB0YR03f6AmQaHbwWDe8	https://api.spotify.com/v1/audio-analysis/0hCB0YR03f6AmQaHbwWDe8	333893	4	Whole Lotta Love	5.33	0.412
+0.512	0.905	1	-4.509	1	0.0573	3.21e-05	0.00011	0.102	0.692	116.746	audio_features	1f3yAtsJtY87CTmM8RLnxf	spotify:track:1f3yAtsJtY87CTmM8RLnxf	https://api.spotify.com/v1/tracks/1f3yAtsJtY87CTmM8RLnxf	https://api.spotify.com/v1/audio-analysis/1f3yAtsJtY87CTmM8RLnxf	301920	4	Smells Like Teen Spirit	5.1	0.512
+0.438	0.71	2	-12.412	1	0.0919	0.262	0.537	0.221	0.53	145.928	audio_features	63OFKbMaZSDZ4wtesuuq6f	spotify:track:63OFKbMaZSDZ4wtesuuq6f	https://api.spotify.com/v1/tracks/63OFKbMaZSDZ4wtesuuq6f	https://api.spotify.com/v1/audio-analysis/63OFKbMaZSDZ4wtesuuq6f	210373	4	Born To Be Wild	3.30	0.438
+0.694	0.394	0	-15.881	1	0.0428	0.0781	0.000677	0.247	0.719	104.126	audio_features	21jBRxUvrWXTwBfGnQwyVy	spotify:track:21jBRxUvrWXTwBfGnQwyVy	https://api.spotify.com/v1/tracks/21jBRxUvrWXTwBfGnQwyVy	https://api.spotify.com/v1/audio-analysis/21jBRxUvrWXTwBfGnQwyVy	238747	4	Another Brick In The Wall, Pt. 2 - 2011 Remastered Version	3.58	0.694
+0.453	0.906	9	-4.001	1	0.115	0.361	0.000569	0.26	0.473	137.575	audio_features	2b9lp5A6CqSzwOrBfAFhof	spotify:track:2b9lp5A6CqSzwOrBfAFhof	https://api.spotify.com/v1/tracks/2b9lp5A6CqSzwOrBfAFhof	https://api.spotify.com/v1/audio-analysis/2b9lp5A6CqSzwOrBfAFhof	296200	4	Crazy Train - Remastered	4.56	0.453
+0.808	0.518	4	-9.552	0	0.0771	0.049	0.651	0.0707	0.652	119.999	audio_features	4RYmmMjtP3XsG3s4gWwHqE	spotify:track:4RYmmMjtP3XsG3s4gWwHqE	https://api.spotify.com/v1/tracks/4RYmmMjtP3XsG3s4gWwHqE	https://api.spotify.com/v1/audio-analysis/4RYmmMjtP3XsG3s4gWwHqE	598093	4	I'm Gonna Get You - Original Mix	9.58	0.808
+0.725	0.853	2	-7.842	1	0.0353	0.0348	0.127	0.196	0.904	136.282	audio_features	7fSGbZLhWlAiCC3HDPAULu	spotify:track:7fSGbZLhWlAiCC3HDPAULu	https://api.spotify.com/v1/tracks/7fSGbZLhWlAiCC3HDPAULu	https://api.spotify.com/v1/audio-analysis/7fSGbZLhWlAiCC3HDPAULu	222813	4	(I Can't Get No) Satisfaction - Mono Version / Remastered 2002	3.42	0.725
+0.338	0.34	9	-12.049	0	0.0339	0.58	0.0032	0.116	0.197	82.433	audio_features	5CQ30WqJwcep0pYcV4AMNc	spotify:track:5CQ30WqJwcep0pYcV4AMNc	https://api.spotify.com/v1/tracks/5CQ30WqJwcep0pYcV4AMNc	https://api.spotify.com/v1/audio-analysis/5CQ30WqJwcep0pYcV4AMNc	482830	4	Stairway To Heaven	8.2	0.338
+0.559	0.825	0	-10.725	0	0.0401	0.0771	0	0.363	0.805	122.821	audio_features	3U7H63zKWLjOuFZJUmTowp	spotify:track:3U7H63zKWLjOuFZJUmTowp	https://api.spotify.com/v1/tracks/3U7H63zKWLjOuFZJUmTowp	https://api.spotify.com/v1/audio-analysis/3U7H63zKWLjOuFZJUmTowp	223733	4	You Give Love A Bad Name	3.43	0.559
+0.482	0.8	11	-9.278	0	0.0916	0.0569	0.00223	0.387	0.569	158.81	audio_features	0wzABO1igQsSy8cQ7dIeHK	spotify:track:0wzABO1igQsSy8cQ7dIeHK	https://api.spotify.com/v1/tracks/0wzABO1igQsSy8cQ7dIeHK	https://api.spotify.com/v1/audio-analysis/0wzABO1igQsSy8cQ7dIeHK	202267	4	Paint It Black	3.22	0.482
+0.893	0.346	1	-14.319	1	0.238	0.0187	0.631	0.105	0.717	121.674	audio_features	3SSpjBXyIlVhM1NibwuiHb	spotify:track:3SSpjBXyIlVhM1NibwuiHb	https://api.spotify.com/v1/tracks/3SSpjBXyIlVhM1NibwuiHb	https://api.spotify.com/v1/audio-analysis/3SSpjBXyIlVhM1NibwuiHb	337960	4	Mystery (DJ-Kicks) - mixed	5.37	0.893
+0.69	0.739	3	-11.513	0	0.059	0.0127	0.905	0.0744	0.384	125.007	audio_features	5nbttXsM0PYqyASw0IQ1ux	spotify:track:5nbttXsM0PYqyASw0IQ1ux	https://api.spotify.com/v1/tracks/5nbttXsM0PYqyASw0IQ1ux	https://api.spotify.com/v1/audio-analysis/5nbttXsM0PYqyASw0IQ1ux	463406	4	Solitary Daze	7.43	0.69
+0.855	0.425	7	-12.939	1	0.0953	0.111	0.852	0.0774	0.195	120.025	audio_features	43mulJ5Q7ECMNpqpmtflNt	spotify:track:43mulJ5Q7ECMNpqpmtflNt	https://api.spotify.com/v1/tracks/43mulJ5Q7ECMNpqpmtflNt	https://api.spotify.com/v1/audio-analysis/43mulJ5Q7ECMNpqpmtflNt	446053	4	The Way Back	7.26	0.855
+0.786	0.69	1	-10.223	0	0.0683	0.00284	0.912	0.227	0.219	128.892	audio_features	2cVPZYAzumN7R0Zsh9mGA2	spotify:track:2cVPZYAzumN7R0Zsh9mGA2	https://api.spotify.com/v1/tracks/2cVPZYAzumN7R0Zsh9mGA2	https://api.spotify.com/v1/audio-analysis/2cVPZYAzumN7R0Zsh9mGA2	433307	4	Domino	7.13	0.786
+0.793	0.608	6	-11.638	0	0.0673	0.588	0.861	0.0991	0.118	124.988	audio_features	7p6oXzBSPAXXz8Xb8gBPki	spotify:track:7p6oXzBSPAXXz8Xb8gBPki	https://api.spotify.com/v1/tracks/7p6oXzBSPAXXz8Xb8gBPki	https://api.spotify.com/v1/audio-analysis/7p6oXzBSPAXXz8Xb8gBPki	383972	4	Subzero - Original Mix	6.23	0.793
+0.838	0.501	10	-9.515	0	0.0796	0.0775	0.151	0.112	0.488	127.0	audio_features	49PubEYjr226JgABczXokZ	spotify:track:49PubEYjr226JgABczXokZ	https://api.spotify.com/v1/tracks/49PubEYjr226JgABczXokZ	https://api.spotify.com/v1/audio-analysis/49PubEYjr226JgABczXokZ	304107	4	Summertime - Original Mix	5.4	0.838
+0.763	0.806	5	-7.399	0	0.044	0.000137	0.91	0.295	0.33	124.99	audio_features	5YDbSfN5oKWBoeyf9nBA38	spotify:track:5YDbSfN5oKWBoeyf9nBA38	https://api.spotify.com/v1/tracks/5YDbSfN5oKWBoeyf9nBA38	https://api.spotify.com/v1/audio-analysis/5YDbSfN5oKWBoeyf9nBA38	405699	4	Rave	6.45	0.763
+0.483	0.786	7	-5.735	1	0.0319	0.00316	8.86e-05	0.446	0.793	126.748	audio_features	4DMKwE2E2iYDKY01C335Uw	spotify:track:4DMKwE2E2iYDKY01C335Uw	https://api.spotify.com/v1/tracks/4DMKwE2E2iYDKY01C335Uw	https://api.spotify.com/v1/audio-analysis/4DMKwE2E2iYDKY01C335Uw	323000	4	Carry on Wayward Son	5.23	0.483
+0.643	0.669	0	-7.485	1	0.0398	0.208	0.00664	0.151	0.609	132.709	audio_features	3yI282DoIJyERd0vGukMoB	spotify:track:3yI282DoIJyERd0vGukMoB	https://api.spotify.com/v1/tracks/3yI282DoIJyERd0vGukMoB	https://api.spotify.com/v1/audio-analysis/3yI282DoIJyERd0vGukMoB	140773	4	Fortunate Son	2.20	0.643
+0.545	0.64	4	-9.937	0	0.224	0.00249	0.0304	0.196	0.606	80.544	audio_features	70YvYr2hGlS01bKRIho1HM	spotify:track:70YvYr2hGlS01bKRIho1HM	https://api.spotify.com/v1/tracks/70YvYr2hGlS01bKRIho1HM	https://api.spotify.com/v1/audio-analysis/70YvYr2hGlS01bKRIho1HM	230480	4	La Grange - 2005 Remastered Version	3.50	0.545
+0.579	0.508	2	-9.484	1	0.027	0.00574	0.000494	0.0575	0.609	147.125	audio_features	40riOy7x9W7GXjyGp4pjAv	spotify:track:40riOy7x9W7GXjyGp4pjAv	https://api.spotify.com/v1/tracks/40riOy7x9W7GXjyGp4pjAv	https://api.spotify.com/v1/audio-analysis/40riOy7x9W7GXjyGp4pjAv	391376	4	Hotel California - Remastered	6.31	0.579
+0.316	0.484	9	-9.11	0	0.0308	0.000334	0.00445	0.0912	0.299	117.363	audio_features	4mn2kNTqiGLwaUR8JdhJ1l	spotify:track:4mn2kNTqiGLwaUR8JdhJ1l	https://api.spotify.com/v1/tracks/4mn2kNTqiGLwaUR8JdhJ1l	https://api.spotify.com/v1/audio-analysis/4mn2kNTqiGLwaUR8JdhJ1l	269907	3	The House Of The Rising Sun	4.29	0.316
+0.698	0.493	9	-12.506	1	0.0278	0.043	0.0429	0.308	0.671	105.268	audio_features	3ykSdTGmYPFl8pDBXer1zG	spotify:track:3ykSdTGmYPFl8pDBXer1zG	https://api.spotify.com/v1/tracks/3ykSdTGmYPFl8pDBXer1zG	https://api.spotify.com/v1/audio-analysis/3ykSdTGmYPFl8pDBXer1zG	221640	4	Cocaine	3.41	0.698
+0.437	0.864	4	-7.842	0	0.0904	0.396	0.0314	0.242	0.749	81.394	audio_features	3qT4bUD1MaWpGrTwcvguhb	spotify:track:3qT4bUD1MaWpGrTwcvguhb	https://api.spotify.com/v1/tracks/3qT4bUD1MaWpGrTwcvguhb	https://api.spotify.com/v1/audio-analysis/3qT4bUD1MaWpGrTwcvguhb	295387	4	Black Dog	4.55	0.437
+0.469	0.537	9	-10.421	1	0.152	0.0241	0.00201	0.269	0.783	124.193	audio_features	1SwE3FURO4wYshsLRggtfv	spotify:track:1SwE3FURO4wYshsLRggtfv	https://api.spotify.com/v1/tracks/1SwE3FURO4wYshsLRggtfv	https://api.spotify.com/v1/audio-analysis/1SwE3FURO4wYshsLRggtfv	382834	1	Money - 2011 Remastered Version	6.22	0.469
+0.687	0.744	2	-8.085	1	0.0545	0.000189	0.875	0.0924	0.526	124.012	audio_features	6TcpM1p0xHy1smBjxEF73s	spotify:track:6TcpM1p0xHy1smBjxEF73s	https://api.spotify.com/v1/tracks/6TcpM1p0xHy1smBjxEF73s	https://api.spotify.com/v1/audio-analysis/6TcpM1p0xHy1smBjxEF73s	441090	4	Conjure Dreams	7.21	0.687
+0.698	0.742	7	-8.047	1	0.0433	0.000634	0.851	0.102	0.0863	125.993	audio_features	1rd3bZL1cR7gETcEw27apY	spotify:track:1rd3bZL1cR7gETcEw27apY	https://api.spotify.com/v1/tracks/1rd3bZL1cR7gETcEw27apY	https://api.spotify.com/v1/audio-analysis/1rd3bZL1cR7gETcEw27apY	501060	4	Run Baby Run	8.21	0.698
+0.662	0.738	2	-10.308	1	0.0349	0.00763	0.911	0.103	0.0542	124.996	audio_features	37WaRvUdhksv1AL5I7RB6k	spotify:track:37WaRvUdhksv1AL5I7RB6k	https://api.spotify.com/v1/tracks/37WaRvUdhksv1AL5I7RB6k	https://api.spotify.com/v1/audio-analysis/37WaRvUdhksv1AL5I7RB6k	430031	4	Cloud Generator	7.10	0.662
+0.522	0.823	6	-6.148	0	0.0578	0.0211	0.909	0.119	0.316	125.061	audio_features	3Fvvgf6VlGrWWo03SaIayb	spotify:track:3Fvvgf6VlGrWWo03SaIayb	https://api.spotify.com/v1/tracks/3Fvvgf6VlGrWWo03SaIayb	https://api.spotify.com/v1/audio-analysis/3Fvvgf6VlGrWWo03SaIayb	481760	4	Rej	8.1	0.522
+0.797	0.693	2	-7.949	1	0.0599	0.00098	0.926	0.106	0.114	130.013	audio_features	55CPt0iX8f2IZvWeGNt0YH	spotify:track:55CPt0iX8f2IZvWeGNt0YH	https://api.spotify.com/v1/tracks/55CPt0iX8f2IZvWeGNt0YH	https://api.spotify.com/v1/audio-analysis/55CPt0iX8f2IZvWeGNt0YH	295915	1	I Wanna Go Bang - Original Mix	4.55	0.797
+0.673	0.982	9	-6.698	0	0.0547	0.00148	0.726	0.0413	0.646	123.999	audio_features	3KUoiySr90tw8XSW8Ezmx4	spotify:track:3KUoiySr90tw8XSW8Ezmx4	https://api.spotify.com/v1/tracks/3KUoiySr90tw8XSW8Ezmx4	https://api.spotify.com/v1/audio-analysis/3KUoiySr90tw8XSW8Ezmx4	443224	4	Veins	7.23	0.673
