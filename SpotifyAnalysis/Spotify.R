@@ -321,7 +321,7 @@ dance_and_time + geom_point() +
 
 
 write.table(myTop, "../mapreduce/MyTop100.txt",sep="\t", quote = FALSE, row.names = FALSE)
-write.table(myTop, "../mapreduce/SpotifyTop100.txt",sep="\t", quote = FALSE, row.names = FALSE)
+write.table(spotifyTop, "../mapreduce/SpotifyTop100.txt",sep="\t", quote = FALSE, row.names = FALSE)
 
 
 
