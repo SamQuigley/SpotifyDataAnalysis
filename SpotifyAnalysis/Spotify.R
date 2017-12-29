@@ -143,9 +143,9 @@ hist(spotifyTop$length,
      xlab="myTop.length", 
      border="blue", 
      col="green",
-     xlim=c(0,12),
+     xlim=c(0,8),
      las=1, 
-     breaks=10)
+     breaks=3)
 
 
 
@@ -158,32 +158,32 @@ options(scipen=999)  # turn-off scientific notation like 1e+48
 library(ggplot2)
 theme_set(theme_bw())  # pre-set the bw theme.
 # Scatterplot
-loud_vs_acoustic <- ggplot(spotifyTop, aes(x=loudness, y=acousticness)) + 
+tempo_vs_dance <- ggplot(spotifyTop, aes(x=tempo, y=danceability)) + 
   geom_point(aes(col=loudness, size=acousticness)) + 
   geom_smooth(method="loess", se=F) + 
-  xlim(c(-15,1 )) + 
+  xlim(c(0,200)) + 
   ylim(c(0, 1)) + 
-  labs(subtitle="loudness Vs acousticness", 
-       y="acousticness", 
-       x="lodness", 
+  labs(subtitle="tempo Vs danceability", 
+       y="tempo", 
+       x="danceability", 
        title="Scatterplot", 
        caption = "Source: Spotify top 100 tracks via Spotify API")
 
-plot(loud_vs_acoustic)
+plot(tempo_vs_dance)
 
 # Scatterplot
-loud_vs_acoustic2 <- ggplot(myTop, aes(x=loudness, y=acousticness)) + 
-  geom_point(aes(col=loudness, size=acousticness)) + 
+tempo_vs_dance2 <- ggplot(myTop, aes(x=tempo, y=danceability)) + 
+  geom_point(aes(col=loudness, size=tempo)) + 
   geom_smooth(method="loess", se=F) + 
-  xlim(c(-15,1 )) + 
+  xlim(c(0,200)) + 
   ylim(c(0, 1)) + 
-  labs(subtitle="loudness Vs acousticness", 
-       y="acousticness", 
-       x="lodness", 
+  labs(subtitle="tempo Vs danceability", 
+       y="tempo", 
+       x="danceability", 
        title="Scatterplot", 
        caption = "Source: Spotify top 100 tracks via Spotify API")
 
-plot(loud_vs_acoustic2)
+plot(tempo_vs_dance2)
 
 # Scatterplot
 tempo_vs_key <- ggplot(spotifyTop, aes(x=tempo, y=key)) + 
@@ -237,10 +237,19 @@ dance_and_happy + geom_count(col="tomato3", show.legend=F) +
 spotify_valence <- ggplot(spotifyTop, aes(valence))
 spotify_valence + geom_density(aes(fill=factor(valence)), alpha=0.8) + 
   labs(title="Density plot", 
-       subtitle="City Mileage Grouped by Number of cylinders",
+       subtitle="How happy  are spotify top 100 tracks?",
        caption="Source: Spotify API",
-       x="City Mileage",
-       fill="# Cylinders")
+       x="valence",
+       fill="# happyness")
+
+# Plot
+spotify_valence <- ggplot(myTop, aes(valence))
+spotify_valence + geom_density(aes(fill=factor(valence)), alpha=0.8) + 
+  labs(title="Density plot", 
+       subtitle="How happy are my top 100 tracks?",
+       caption="Source: Spotify API",
+       x="valence",
+       fill="# happyness")
 
 # Plot
 spotify_danceability <- ggplot(spotifyTop, aes(danceability))
@@ -322,7 +331,7 @@ dance_and_time + geom_point() +
 
 write.table(myTop, "../mapreduce/MyTop100.txt",sep="\t", quote = FALSE, row.names = FALSE)
 write.table(spotifyTop, "../mapreduce/SpotifyTop100.txt",sep="\t", quote = FALSE, row.names = FALSE)
-
+ 
 
 
 
