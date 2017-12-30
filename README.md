@@ -4,16 +4,18 @@ This project is part of my Data Application Developemnt module @ the National Co
 
 # Project Flow
 ```
-Data Extraction & pre-processing
+# Data Extraction & pre-processing
 Scarper.py    -   pulls data from Spotifys API
 jsonToCSV.py  -   converts API response from JSON to CSV
-ms_to_mins.py -   adds the song durationt to the dataset in mins/secs format
+ms_to_mins.py -   adds the song duration to the dataset in mins/secs format
 
-Data Trnasformation, alaysis, and vizualisation
+# Data Trnasformation, alaysis, and vizualisation
 Spotify.R     -   Imports the csv files, performs operations on the datasets, exports the to tab delimeted text files.
 
-mapReduce
-
+# mapReduce
+count & top N -> song tempos
+max -> song tempos
+max -> song duration
 ```
 
 ### Prerequisites
