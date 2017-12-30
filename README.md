@@ -6,10 +6,11 @@ This project is part of my Data Application Developemnt module @ the National Co
 ```
 #NodeSpotifyAPI
 This is a simple credentials flow application used to obtain a users ID, 
-which can be used as a paramter in API calls.
+which can be used as a paramter in API calls. 
+[Adopted From Here](https://developer.spotify.com/web-api/tutorial/)
 
 # Data Extraction & pre-processing
-Scarper.py    -   pulls data from Spotifys API
+Scraper.py    -   pulls data from Spotifys API
 jsonToCSV.py  -   converts API response from JSON to CSV
 ms_to_mins.py -   adds the song duration to the dataset in mins/secs format
 
