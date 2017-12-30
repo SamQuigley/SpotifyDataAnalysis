@@ -7,7 +7,7 @@ This project is part of my Data Application Developemnt module @ the National Co
 #NodeSpotifyAPI
 This is a simple credentials flow application used to obtain a users ID, 
 which can be used as a paramter in API calls. 
-[Adopted From Here](https://developer.spotify.com/web-api/tutorial/)
+Adopted from here -> https://developer.spotify.com/web-api/tutorial/
 
 # Data Extraction & pre-processing
 Scraper.py    -   pulls data from Spotifys API
