@@ -9,7 +9,7 @@ Scarper.py    -   pulls data from Spotifys API
 jsonToCSV.py  -   converts API response from JSON to CSV
 ms_to_mins.py -   adds the song duration to the dataset in mins/secs format
 
-# Data Trnasformation, alaysis, and vizualisation
+# Data Trnasformation, analysis, and vizualisation
 Spotify.R     -   Imports the csv files, performs operations on the datasets, exports the to tab delimeted text files.
 
 # mapReduce
