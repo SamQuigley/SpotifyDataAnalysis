@@ -4,12 +4,16 @@ This project is part of my Data Application Developemnt module @ the National Co
 
 # Project Flow
 ```
-/Spotify Scraper
-Scarper.py pulls data from Spotifys API
-/Spotify Scraper/encoders
-Converts API response from JSON to CSV
-/Spotify Scraper/formatting
-adds new row of song duration as the response from the API is in milliseconds 
+Data Extraction & pre-processing
+Scarper.py    -   pulls data from Spotifys API
+jsonToCSV.py  -   converts API response from JSON to CSV
+ms_to_mins.py -   adds the song durationt to the dataset in mins/secs format
+
+Data Trnasformation, alaysis, and vizualisation
+Spotify.R     -   Imports the csv files, performs operations on the datasets, exports the to tab delimeted text files.
+
+mapReduce
+
 ```
 
 ### Prerequisites
