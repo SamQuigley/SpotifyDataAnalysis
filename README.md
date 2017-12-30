@@ -4,8 +4,9 @@ This project is part of my Data Application Developemnt module @ the National Co
 
 # Project Flow
 ```
-#NodeAccessTokenAPI
-This is a simple credentials flow application used to obtain a users ID, which can be used as a paramter in API calls.
+#NodeSpotifyAPI
+This is a simple credentials flow application used to obtain a users ID, 
+which can be used as a paramter in API calls.
 
 # Data Extraction & pre-processing
 Scarper.py    -   pulls data from Spotifys API
@@ -13,7 +14,8 @@ jsonToCSV.py  -   converts API response from JSON to CSV
 ms_to_mins.py -   adds the song duration to the dataset in mins/secs format
 
 # Data Trnasformation, analysis, and vizualisation
-Spotify.R     -   Imports the csv files, performs operations on the datasets, exports the to tab delimeted text files.
+Spotify.R     -   Imports the csv files, performs operations on the datasets, 
+exports the to tab delimeted text files.
 
 # mapReduce
 count & top N -> song tempos
