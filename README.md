@@ -4,6 +4,9 @@ This project is part of my Data Application Developemnt module @ the National Co
 
 # Project Flow
 ```
+#NodeAccessTokenAPI
+This is a simple credentials flow application used to obtain a users ID, which can be used as a paramter in API calls.
+
 # Data Extraction & pre-processing
 Scarper.py    -   pulls data from Spotifys API
 jsonToCSV.py  -   converts API response from JSON to CSV
@@ -20,8 +23,6 @@ max -> song duration
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
 ```
 Python 3
 Node.js
@@ -36,9 +37,7 @@ Spotipy(pip install)
 
 ## Authors
 
-* **Sam Quigley** -complete* - [SamQuigley](https://github.com/SamQuigley)
-
-See also the list of [contributors](https://github.com/SamQuigley/contributors) who participated in this project.
+* **Sam Quigley** - [SamQuigley](https://github.com/SamQuigley)
 
 ## License
 
