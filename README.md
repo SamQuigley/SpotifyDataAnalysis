@@ -1,10 +1,16 @@
 # SpotifyDataAnalysis
 
-One Paragraph of project description goes here
+This project is part of my Data Application Developemnt module @ the National College of Ireland, delivered by Dr. Caton. 
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+# Project Flow
+```
+/Spotify Scraper
+Scarper.py pulls data from Spotifys API
+/Spotify Scraper/encoders
+Converts API response from JSON to CSV
+/Spotify Scraper/formatting
+adds new row of song duration as the response from the API is in milliseconds 
+```
 
 ### Prerequisites
 
@@ -13,7 +19,7 @@ What things you need to install the software and how to install them
 ```
 Python 3
 Node.js
-pip install spotipy
+Spotipy(pip install)
 ```
 
 
