@@ -1,5 +1,5 @@
 # SpotifyDataAnalysis
 
-Data Appliction Development project
-Author @ Sam Quigley
-Data Source: Spotify
+Data Appliction Development project.
+Author @ Sam Quigley.
+Data Source: Spotify.
