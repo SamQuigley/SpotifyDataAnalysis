@@ -35,7 +35,7 @@ Spotipy(pip install)
 
 ## Built With
 
-* [Spotipy](http://spotipy.readthedocs.io/en/latest/) - The Python library used
+* [Spotipy](http://spotipy.readthedocs.io/en/latest/) - Lightweight Python library for the Spotify Web API.
 
 
 ## Authors
