@@ -1,6 +1,6 @@
 # SpotifyDataAnalysis
 
-This project is part of my Data Application Developemnt module @ the National College of Ireland, delivered by Dr. Caton. 
+This project is part of my Data Application Development module @ the National College of Ireland, delivered by Dr. Caton. 
 
 # Project Flow
 ```
