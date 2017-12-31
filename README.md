@@ -2,7 +2,7 @@
 
 This project is part of my Data Application Development module @ the National College of Ireland, delivered by Dr. Caton. 
 
-# Project Flow
+# Project Flow (KDD)
 ```
 #NodeSpotifyAPI
 This is a simple credentials flow application used to obtain a users ID, 
@@ -22,6 +22,9 @@ exports datasets to tab delimeted text files for mapReduce.
 count & top N -> song tempos
 max -> song tempos
 max -> song duration
+
+# Knowledge
+This project helped me undertand the core attributes to popular songs as well understand the attributes that are in my favourite songs and how the two datasets differ.
 ```
 
 ### Prerequisites
