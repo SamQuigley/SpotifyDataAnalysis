@@ -24,7 +24,8 @@ max -> song tempos
 max -> song duration
 
 # Knowledge
-This project helped me undertand the core attributes to popular songs as well understand the attributes that are in my favourite songs and how the two datasets differ.
+This project helped me undertand the core attributes to popular songs, 
+as well understand the attributes that are in my favourite songs and how the two datasets differ.
 ```
 
 ### Prerequisites
