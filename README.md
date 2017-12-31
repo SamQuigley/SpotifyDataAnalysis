@@ -50,4 +50,4 @@ This project is licensed under the MIT License
 
 * https://opendatascience.com/blog/a-machine-learning-deep-dive-into-my-spotify-data/
 * https://medium.com/cuepoint/visualizing-hundreds-of-my-favorite-songs-on-spotify-fe50c94b8af3
-* I was inspired to undertake this project my the many web applications that exist, that tell the user their favourite songs. I wanted to uderstand what attribtes make these songs.
+* I was inspired to undertake this project as a music lover and a computer science student, I wanted to understand what are the attributes that are common among my favoutite songs and compare them to the top 100 songs of 2017. From this proejct I have more knowledge about my own music taste and the current charts. 
