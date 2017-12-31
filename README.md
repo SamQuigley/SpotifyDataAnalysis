@@ -16,7 +16,7 @@ ms_to_mins.py -   adds the song duration to the dataset in mins/secs format
 
 # Data Trnasformation, analysis, and vizualisation
 Spotify.R     -   Imports the csv files, performs operations on the datasets, 
-exports the to tab delimeted text files.
+exports datasets to tab delimeted text files for mapReduce.
 
 # mapReduce
 count & top N -> song tempos
