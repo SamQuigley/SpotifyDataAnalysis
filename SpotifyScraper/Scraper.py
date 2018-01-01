@@ -1,14 +1,13 @@
 import spotipy,json,pprint
 sp = spotipy.Spotify()
 from spotipy.oauth2 import SpotifyClientCredentials
-cid ="4ddaaefb52d6432da0eac4873ae58846"
-secret = "4b6bcb9ce4d648fd9f6d637b91b47ca2"
+cid ="insert_client_id_here"
+secret = "insert_secret_here"
 client_credentials_manager = SpotifyClientCredentials(client_id=cid, client_secret=secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 sp.trace=False
-# spotify:user:spotify:playlist:4hOKQuZbraPDIfaGbM3lKI - user spotify & playlist ID
-def spotifyTop():
-    playlist = sp.user_playlist("spotify", "4hOKQuZbraPDIfaGbM3lKI")
+def playlistOne():
+    playlist = sp.user_playlist("spotify", "insert_playlist_id")
     songs = playlist["tracks"]["items"]
     ids = []
     tracks=[]
@@ -23,8 +22,8 @@ def spotifyTop():
         json.dump(tracks, outfile)
 
 
-def myTop():
-    playlist = sp.user_playlist("1195494385", "00Hc2R2oeXclqu7NvEOh41")
+def playlistTwo():
+    playlist = sp.user_playlist("insert_user_id", "insert_playlist_id")
     songs = playlist["tracks"]["items"]
     ids = []
     tracks=[]
@@ -39,5 +38,5 @@ def myTop():
         json.dump(tracks, outfile)
 
 
-spotifyTop()
-myTop()
+playlistOne()
+playlistTwo()
