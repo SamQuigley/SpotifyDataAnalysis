@@ -27,6 +27,11 @@ max -> song duration
 This project helped me undertand the core attributes to popular songs, 
 as well understand the attributes that are in my favourite songs and how the two datasets differ.
 ```
+### Datasets
+```
+1. My personal top 100 tracks from 2017 on Spotify
+2. The top 100 tracks streamed on Spotify in 2017.
+```
 
 ### Prerequisites
 
