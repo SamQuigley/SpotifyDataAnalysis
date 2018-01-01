@@ -2,6 +2,11 @@
 
 This project is part of my Data Application Development module @ the National College of Ireland, delivered by Dr. Caton. 
 
+```
+This application can be used by anyone, by registering your own Spotify application.
+ADD TO SCRIPTS - your client_id, secret_id, playlist_ids, and user_id  
+```
+
 # Project Flow (KDD)
 ```
 #NodeSpotifyAPI
