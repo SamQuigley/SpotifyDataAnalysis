@@ -7,7 +7,7 @@ client_credentials_manager = SpotifyClientCredentials(client_id=cid, client_secr
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 sp.trace=False
 def playlistOne():
-    playlist = sp.user_playlist("spotify", "insert_playlist_id")
+    playlist = sp.user_playlist("insert_user_id", "insert_playlist_id")
     songs = playlist["tracks"]["items"]
     ids = []
     tracks=[]

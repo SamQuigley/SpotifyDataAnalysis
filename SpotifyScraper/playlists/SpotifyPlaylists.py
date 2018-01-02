@@ -1,7 +1,7 @@
 import spotipy,pprint,json
 from spotipy.oauth2 import SpotifyClientCredentials
 
-client_credentials_manager = SpotifyClientCredentials(client_id='insert_client_id', client_secret='insert_secret')
+client_credentials_manager = SpotifyClientCredentials(client_id='insert_client_id_here', client_secret='insert_secret_here')
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 playlists = sp.user_playlists('spotify')
